@@ -1,15 +1,28 @@
-
 Experiment: inpainting
 ------------------------------
-
-Epoch 1: Loss 0.7222, Accuracy 50.05%
-Epoch 2: Loss 0.6932, Accuracy 49.66%
-
+Epoch 1: Loss 0.7246, Accuracy 50.40%
+Epoch 2: Loss 0.6933, Accuracy 50.10%
+Epoch 3: Loss 0.6933, Accuracy 50.35%
+Epoch 4: Loss 0.6932, Accuracy 50.02%
+Epoch 5: Loss 0.6932, Accuracy 50.06%
 Experiment: insight
 ------------------------------
-
+Epoch 1: Loss 0.7286, Accuracy 49.97%
+Epoch 2: Loss 0.6933, Accuracy 49.80%
+Epoch 3: Loss 0.6932, Accuracy 49.47%
+Epoch 4: Loss 0.6933, Accuracy 49.81%
+Epoch 5: Loss 0.6932, Accuracy 49.89%
 Experiment: text2img
 ------------------------------
-
+Epoch 1: Loss 0.6151, Accuracy 66.61%
+Epoch 2: Loss 0.5159, Accuracy 73.70%
+Epoch 3: Loss 0.4857, Accuracy 75.84%
+Epoch 4: Loss 0.4588, Accuracy 77.76%
+Epoch 5: Loss 0.4391, Accuracy 78.92%
 Experiment: all_fakes
 ------------------------------
+Epoch 1: Loss 0.5832, Accuracy 74.78%
+Epoch 2: Loss 0.5602, Accuracy 75.00%
+Epoch 3: Loss 0.5562, Accuracy 75.00%
+Epoch 4: Loss 0.5538, Accuracy 75.00%
+Epoch 5: Loss 0.5526, Accuracy 75.00%
