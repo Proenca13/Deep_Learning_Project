@@ -17,6 +17,5 @@ class DeepFakeNN_1(nn.Module):
         x = F.relu(self.fc2(x))
         x = F.relu(self.fc3(x))
         x = self.fc4(x)
-        x = torch.sigmoid(self.fc4(x))
 
         return x
