@@ -1,0 +1,6 @@
+
+Experiment: inpainting
+------------------------------
+
+Epoch 1: Loss 0.7222, Accuracy 50.05%
+Epoch 2: Loss 0.6932, Accuracy 49.66%
