@@ -73,3 +73,5 @@ Epoch 4:
 Epoch 5:
   TRAIN -> Loss 0.4925, Accuracy 75.89%, Precision 0.7865, Recall 0.9312, F1 0.8528, ROC-AUC 0.7420, TP 58667, TN 5077, FP 15923, FN 4333
   VAL   -> Loss 0.4859, Accuracy 76.79%, Precision 0.7774, Recall 0.9678, F1 0.8622, ROC-AUC 0.7560, TP 13065, TN 758, FP 3742, FN 435
+  TEST  -> Loss 0.4904, Accuracy 76.59%, Precision 0.7755, Recall 0.9681, F1 0.8612, ROC-AUC 0.7499, TP 13070, TN 716, FP 3784, FN 430
+
