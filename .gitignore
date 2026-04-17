@@ -1,2 +1,5 @@
 data/
 .venv
+experiment_logs/ViT_B_16_frozen/model_inpainting.pth
+experiment_logs/ViT_B_16_frozen/model_insight.pth
+experiment_logs/ViT_B_16_frozen/model_text2img.pth
