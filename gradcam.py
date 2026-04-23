@@ -433,10 +433,15 @@ def visualize_gradcam_grid(
         model = models_dict[exp_name]
         src = image_map[exp_name]
 
-        # Top row — original image
-        _, img_rgb = _load_image(src, model, device)
+        # Top row — original + prediction
+        tensor, img_rgb = _load_image(src, model, device)
+
+        with torch.no_grad():
+            prob = torch.sigmoid(model(tensor)).item()
+        pred_label = "FAKE" if prob >= 0.5 else "REAL"
+
         axes[0, col].imshow(img_rgb)
-        axes[0, col].set_title(exp_name, fontsize=10, fontweight="bold")
+        axes[0, col].set_title(f"{exp_name}\n{pred_label} ({prob:.1%})", fontsize=10, fontweight="bold")
         axes[0, col].axis("off")
 
         # Bottom row — Grad-CAM overlay
