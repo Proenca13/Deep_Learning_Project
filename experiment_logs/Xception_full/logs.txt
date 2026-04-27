@@ -96,3 +96,5 @@ Epoch 15:
   VAL   -> Loss 0.0301, Accuracy 99.10%, Precision 0.9907, Recall 0.9913, F1 0.9910, ROC-AUC 0.9997, TP 4461, TN 4458, FP 42, FN 39
   TEST  -> Loss 0.0294, Accuracy 99.08%, Precision 0.9900, Recall 0.9916, F1 0.9908, ROC-AUC 0.9997, TP 4462, TN 4455, FP 45, FN 38
 
+Experiment: text2img
+----------------------------------------
