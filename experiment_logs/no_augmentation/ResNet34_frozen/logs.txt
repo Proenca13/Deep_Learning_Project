@@ -1,0 +1,169 @@
+Experiment: inpainting
+----------------------------------------
+Epoch 1:
+  TRAIN -> Loss 0.6126, Accuracy 66.37%, Precision 0.6674, Recall 0.6527, F1 0.6600, ROC-AUC 0.7255, TP 13707, TN 14168, FP 6832, FN 7293
+  VAL   -> Loss 0.5821, Accuracy 69.04%, Precision 0.7023, Recall 0.6611, F1 0.6811, ROC-AUC 0.7624, TP 2975, TN 3239, FP 1261, FN 1525
+Epoch 2:
+  TRAIN -> Loss 0.5834, Accuracy 69.27%, Precision 0.6957, Recall 0.6850, F1 0.6903, ROC-AUC 0.7603, TP 14384, TN 14709, FP 6291, FN 6616
+  VAL   -> Loss 0.5883, Accuracy 69.44%, Precision 0.6603, Recall 0.8011, F1 0.7239, ROC-AUC 0.7665, TP 3605, TN 2645, FP 1855, FN 895
+Epoch 3:
+  TRAIN -> Loss 0.5788, Accuracy 69.97%, Precision 0.7016, Recall 0.6950, F1 0.6983, ROC-AUC 0.7659, TP 14594, TN 14794, FP 6206, FN 6406
+  VAL   -> Loss 0.5713, Accuracy 70.18%, Precision 0.6999, Recall 0.7064, F1 0.7032, ROC-AUC 0.7730, TP 3179, TN 3137, FP 1363, FN 1321
+Epoch 4:
+  TRAIN -> Loss 0.5746, Accuracy 70.22%, Precision 0.7044, Recall 0.6967, F1 0.7005, ROC-AUC 0.7704, TP 14631, TN 14860, FP 6140, FN 6369
+  VAL   -> Loss 0.5871, Accuracy 68.73%, Precision 0.7522, Recall 0.5587, F1 0.6412, ROC-AUC 0.7729, TP 2514, TN 3672, FP 828, FN 1986
+Epoch 5:
+  TRAIN -> Loss 0.5739, Accuracy 70.28%, Precision 0.7046, Recall 0.6983, F1 0.7015, ROC-AUC 0.7708, TP 14665, TN 14853, FP 6147, FN 6335
+  VAL   -> Loss 0.5700, Accuracy 70.48%, Precision 0.7156, Recall 0.6798, F1 0.6972, ROC-AUC 0.7751, TP 3059, TN 3284, FP 1216, FN 1441
+Epoch 6:
+  TRAIN -> Loss 0.5728, Accuracy 70.30%, Precision 0.7050, Recall 0.6980, F1 0.7015, ROC-AUC 0.7725, TP 14657, TN 14867, FP 6133, FN 6343
+  VAL   -> Loss 0.5682, Accuracy 70.68%, Precision 0.7071, Recall 0.7060, F1 0.7065, ROC-AUC 0.7769, TP 3177, TN 3184, FP 1316, FN 1323
+Epoch 7:
+  TRAIN -> Loss 0.5733, Accuracy 70.28%, Precision 0.7051, Recall 0.6972, F1 0.7011, ROC-AUC 0.7717, TP 14641, TN 14878, FP 6122, FN 6359
+  VAL   -> Loss 0.5718, Accuracy 70.57%, Precision 0.6780, Recall 0.7833, F1 0.7269, ROC-AUC 0.7791, TP 3525, TN 2826, FP 1674, FN 975
+Epoch 8:
+  TRAIN -> Loss 0.5738, Accuracy 70.29%, Precision 0.7049, Recall 0.6980, F1 0.7014, ROC-AUC 0.7714, TP 14657, TN 14863, FP 6137, FN 6343
+  VAL   -> Loss 0.5725, Accuracy 70.33%, Precision 0.7366, Recall 0.6331, F1 0.6809, ROC-AUC 0.7770, TP 2849, TN 3481, FP 1019, FN 1651
+Epoch 9:
+  TRAIN -> Loss 0.5728, Accuracy 70.25%, Precision 0.7041, Recall 0.6987, F1 0.7014, ROC-AUC 0.7725, TP 14672, TN 14835, FP 6165, FN 6328
+  VAL   -> Loss 0.5709, Accuracy 70.43%, Precision 0.7179, Recall 0.6731, F1 0.6948, ROC-AUC 0.7746, TP 3029, TN 3310, FP 1190, FN 1471
+Epoch 10:
+  TRAIN -> Loss 0.5740, Accuracy 70.20%, Precision 0.7032, Recall 0.6990, F1 0.7011, ROC-AUC 0.7715, TP 14680, TN 14804, FP 6196, FN 6320
+  VAL   -> Loss 0.6000, Accuracy 67.31%, Precision 0.7661, Recall 0.4984, F1 0.6039, ROC-AUC 0.7753, TP 2243, TN 3815, FP 685, FN 2257
+Epoch 11:
+  TRAIN -> Loss 0.5652, Accuracy 71.02%, Precision 0.7125, Recall 0.7048, F1 0.7086, ROC-AUC 0.7803, TP 14800, TN 15027, FP 5973, FN 6200
+  VAL   -> Loss 0.5721, Accuracy 70.31%, Precision 0.7353, Recall 0.6347, F1 0.6813, ROC-AUC 0.7771, TP 2856, TN 3472, FP 1028, FN 1644
+  TEST  -> Loss 0.5562, Accuracy 71.32%, Precision 0.7129, Recall 0.7140, F1 0.7134, ROC-AUC 0.7879, TP 3213, TN 3206, FP 1294, FN 1287
+
+Experiment: insight
+----------------------------------------
+Epoch 1:
+  TRAIN -> Loss 0.6752, Accuracy 58.46%, Precision 0.5859, Recall 0.5769, F1 0.5814, ROC-AUC 0.6172, TP 12115, TN 12437, FP 8563, FN 8885
+  VAL   -> Loss 0.6584, Accuracy 61.52%, Precision 0.6076, Recall 0.6509, F1 0.6285, ROC-AUC 0.6548, TP 2929, TN 2608, FP 1892, FN 1571
+Epoch 2:
+  TRAIN -> Loss 0.6605, Accuracy 60.76%, Precision 0.6082, Recall 0.6047, F1 0.6064, ROC-AUC 0.6498, TP 12698, TN 12821, FP 8179, FN 8302
+  VAL   -> Loss 0.6597, Accuracy 60.08%, Precision 0.6344, Recall 0.4758, F1 0.5437, ROC-AUC 0.6587, TP 2141, TN 3266, FP 1234, FN 2359
+Epoch 3:
+  TRAIN -> Loss 0.6560, Accuracy 61.18%, Precision 0.6129, Recall 0.6073, F1 0.6101, ROC-AUC 0.6570, TP 12753, TN 12944, FP 8056, FN 8247
+  VAL   -> Loss 0.6570, Accuracy 61.66%, Precision 0.5962, Recall 0.7227, F1 0.6533, ROC-AUC 0.6604, TP 3252, TN 2297, FP 2203, FN 1248
+Epoch 4:
+  TRAIN -> Loss 0.6547, Accuracy 61.67%, Precision 0.6173, Recall 0.6143, F1 0.6158, ROC-AUC 0.6609, TP 12900, TN 13003, FP 7997, FN 8100
+  VAL   -> Loss 0.6623, Accuracy 61.08%, Precision 0.5849, Recall 0.7636, F1 0.6624, ROC-AUC 0.6591, TP 3436, TN 2061, FP 2439, FN 1064
+Epoch 5:
+  TRAIN -> Loss 0.6538, Accuracy 61.55%, Precision 0.6156, Recall 0.6154, F1 0.6155, ROC-AUC 0.6620, TP 12923, TN 12930, FP 8070, FN 8077
+  VAL   -> Loss 0.6550, Accuracy 61.20%, Precision 0.6384, Recall 0.5167, F1 0.5711, ROC-AUC 0.6652, TP 2325, TN 3183, FP 1317, FN 2175
+Epoch 6:
+  TRAIN -> Loss 0.6528, Accuracy 61.69%, Precision 0.6174, Recall 0.6148, F1 0.6161, ROC-AUC 0.6640, TP 12910, TN 13000, FP 8000, FN 8090
+  VAL   -> Loss 0.6988, Accuracy 57.79%, Precision 0.5471, Recall 0.9042, F1 0.6817, ROC-AUC 0.6637, TP 4069, TN 1132, FP 3368, FN 431
+Epoch 7:
+  TRAIN -> Loss 0.6518, Accuracy 62.09%, Precision 0.6204, Recall 0.6228, F1 0.6216, ROC-AUC 0.6656, TP 13078, TN 12998, FP 8002, FN 7922
+  VAL   -> Loss 0.6525, Accuracy 62.29%, Precision 0.6209, Recall 0.6311, F1 0.6260, ROC-AUC 0.6647, TP 2840, TN 2766, FP 1734, FN 1660
+Epoch 8:
+  TRAIN -> Loss 0.6523, Accuracy 62.07%, Precision 0.6202, Recall 0.6228, F1 0.6215, ROC-AUC 0.6652, TP 13078, TN 12991, FP 8009, FN 7922
+  VAL   -> Loss 0.6607, Accuracy 60.79%, Precision 0.6520, Recall 0.4629, F1 0.5414, ROC-AUC 0.6663, TP 2083, TN 3388, FP 1112, FN 2417
+Epoch 9:
+  TRAIN -> Loss 0.6509, Accuracy 62.06%, Precision 0.6210, Recall 0.6190, F1 0.6200, ROC-AUC 0.6677, TP 12998, TN 13066, FP 7934, FN 8002
+  VAL   -> Loss 0.6508, Accuracy 62.10%, Precision 0.6326, Recall 0.5773, F1 0.6037, ROC-AUC 0.6678, TP 2598, TN 2991, FP 1509, FN 1902
+Epoch 10:
+  TRAIN -> Loss 0.6504, Accuracy 62.05%, Precision 0.6206, Recall 0.6201, F1 0.6203, ROC-AUC 0.6679, TP 13022, TN 13038, FP 7962, FN 7978
+  VAL   -> Loss 0.6600, Accuracy 61.96%, Precision 0.5952, Recall 0.7476, F1 0.6627, ROC-AUC 0.6625, TP 3364, TN 2212, FP 2288, FN 1136
+Epoch 11:
+  TRAIN -> Loss 0.6511, Accuracy 61.97%, Precision 0.6197, Recall 0.6197, F1 0.6197, ROC-AUC 0.6677, TP 13014, TN 13013, FP 7987, FN 7986
+  VAL   -> Loss 0.6562, Accuracy 61.72%, Precision 0.6010, Recall 0.6978, F1 0.6458, ROC-AUC 0.6627, TP 3140, TN 2415, FP 2085, FN 1360
+Epoch 12:
+  TRAIN -> Loss 0.6499, Accuracy 62.63%, Precision 0.6258, Recall 0.6282, F1 0.6270, ROC-AUC 0.6702, TP 13192, TN 13111, FP 7889, FN 7808
+  VAL   -> Loss 0.6610, Accuracy 61.70%, Precision 0.5913, Recall 0.7576, F1 0.6642, ROC-AUC 0.6630, TP 3409, TN 2144, FP 2356, FN 1091
+Epoch 13:
+  TRAIN -> Loss 0.6499, Accuracy 62.24%, Precision 0.6224, Recall 0.6223, F1 0.6224, ROC-AUC 0.6688, TP 13068, TN 13073, FP 7927, FN 7932
+  VAL   -> Loss 0.6675, Accuracy 59.97%, Precision 0.6617, Recall 0.4078, F1 0.5046, ROC-AUC 0.6668, TP 1835, TN 3562, FP 938, FN 2665
+Epoch 14:
+  TRAIN -> Loss 0.6446, Accuracy 62.81%, Precision 0.6280, Recall 0.6285, F1 0.6283, ROC-AUC 0.6762, TP 13199, TN 13183, FP 7817, FN 7801
+  VAL   -> Loss 0.6508, Accuracy 62.78%, Precision 0.6283, Recall 0.6258, F1 0.6270, ROC-AUC 0.6680, TP 2816, TN 2834, FP 1666, FN 1684
+  TEST  -> Loss 0.6489, Accuracy 61.96%, Precision 0.6312, Recall 0.5753, F1 0.6020, ROC-AUC 0.6708, TP 2589, TN 2987, FP 1513, FN 1911
+
+Experiment: text2img
+----------------------------------------
+Epoch 1:
+  TRAIN -> Loss 0.3162, Accuracy 87.05%, Precision 0.8648, Recall 0.8781, F1 0.8714, ROC-AUC 0.9431, TP 18441, TN 18118, FP 2882, FN 2559
+  VAL   -> Loss 0.2454, Accuracy 90.22%, Precision 0.8892, Recall 0.9189, F1 0.9038, ROC-AUC 0.9657, TP 4135, TN 3985, FP 515, FN 365
+Epoch 2:
+  TRAIN -> Loss 0.2517, Accuracy 89.90%, Precision 0.8972, Recall 0.9012, F1 0.8992, ROC-AUC 0.9623, TP 18925, TN 18831, FP 2169, FN 2075
+  VAL   -> Loss 0.2269, Accuracy 91.06%, Precision 0.9153, Recall 0.9049, F1 0.9100, ROC-AUC 0.9693, TP 4072, TN 4123, FP 377, FN 428
+Epoch 3:
+  TRAIN -> Loss 0.2394, Accuracy 90.25%, Precision 0.9008, Recall 0.9047, F1 0.9028, ROC-AUC 0.9653, TP 18999, TN 18908, FP 2092, FN 2001
+  VAL   -> Loss 0.2665, Accuracy 88.82%, Precision 0.8354, Recall 0.9669, F1 0.8964, ROC-AUC 0.9710, TP 4351, TN 3643, FP 857, FN 149
+Epoch 4:
+  TRAIN -> Loss 0.2341, Accuracy 90.57%, Precision 0.9035, Recall 0.9085, F1 0.9060, ROC-AUC 0.9667, TP 19078, TN 18962, FP 2038, FN 1922
+  VAL   -> Loss 0.2173, Accuracy 91.37%, Precision 0.8910, Recall 0.9427, F1 0.9161, ROC-AUC 0.9725, TP 4242, TN 3981, FP 519, FN 258
+Epoch 5:
+  TRAIN -> Loss 0.2283, Accuracy 90.71%, Precision 0.9046, Recall 0.9102, F1 0.9074, ROC-AUC 0.9682, TP 19115, TN 18985, FP 2015, FN 1885
+  VAL   -> Loss 0.2227, Accuracy 91.00%, Precision 0.8775, Recall 0.9531, F1 0.9137, ROC-AUC 0.9732, TP 4289, TN 3901, FP 599, FN 211
+Epoch 6:
+  TRAIN -> Loss 0.2257, Accuracy 90.86%, Precision 0.9074, Recall 0.9100, F1 0.9087, ROC-AUC 0.9689, TP 19111, TN 19050, FP 1950, FN 1889
+  VAL   -> Loss 0.2095, Accuracy 91.78%, Precision 0.9078, Recall 0.9300, F1 0.9188, ROC-AUC 0.9733, TP 4185, TN 4075, FP 425, FN 315
+Epoch 7:
+  TRAIN -> Loss 0.2193, Accuracy 91.27%, Precision 0.9109, Recall 0.9148, F1 0.9129, ROC-AUC 0.9706, TP 19211, TN 19121, FP 1879, FN 1789
+  VAL   -> Loss 0.2113, Accuracy 91.92%, Precision 0.9411, Recall 0.8944, F1 0.9172, ROC-AUC 0.9744, TP 4025, TN 4248, FP 252, FN 475
+Epoch 8:
+  TRAIN -> Loss 0.2200, Accuracy 91.23%, Precision 0.9121, Recall 0.9126, F1 0.9123, ROC-AUC 0.9704, TP 19164, TN 19153, FP 1847, FN 1836
+  VAL   -> Loss 0.2088, Accuracy 91.92%, Precision 0.9376, Recall 0.8982, F1 0.9175, ROC-AUC 0.9742, TP 4042, TN 4231, FP 269, FN 458
+Epoch 9:
+  TRAIN -> Loss 0.2225, Accuracy 91.02%, Precision 0.9095, Recall 0.9110, F1 0.9103, ROC-AUC 0.9697, TP 19132, TN 19096, FP 1904, FN 1868
+  VAL   -> Loss 0.2048, Accuracy 92.18%, Precision 0.9347, Recall 0.9069, F1 0.9206, ROC-AUC 0.9747, TP 4081, TN 4215, FP 285, FN 419
+Epoch 10:
+  TRAIN -> Loss 0.2161, Accuracy 91.43%, Precision 0.9136, Recall 0.9151, F1 0.9144, ROC-AUC 0.9714, TP 19218, TN 19182, FP 1818, FN 1782
+  VAL   -> Loss 0.2015, Accuracy 92.33%, Precision 0.9256, Recall 0.9207, F1 0.9231, ROC-AUC 0.9749, TP 4143, TN 4167, FP 333, FN 357
+Epoch 11:
+  TRAIN -> Loss 0.2166, Accuracy 91.32%, Precision 0.9113, Recall 0.9155, F1 0.9134, ROC-AUC 0.9712, TP 19225, TN 19128, FP 1872, FN 1775
+  VAL   -> Loss 0.2013, Accuracy 92.49%, Precision 0.9223, Recall 0.9280, F1 0.9251, ROC-AUC 0.9749, TP 4176, TN 4148, FP 352, FN 324
+Epoch 12:
+  TRAIN -> Loss 0.2151, Accuracy 91.35%, Precision 0.9111, Recall 0.9164, F1 0.9138, ROC-AUC 0.9717, TP 19245, TN 19123, FP 1877, FN 1755
+  VAL   -> Loss 0.2032, Accuracy 92.11%, Precision 0.9278, Recall 0.9133, F1 0.9205, ROC-AUC 0.9747, TP 4110, TN 4180, FP 320, FN 390
+Epoch 13:
+  TRAIN -> Loss 0.2155, Accuracy 91.33%, Precision 0.9121, Recall 0.9148, F1 0.9134, ROC-AUC 0.9717, TP 19210, TN 19148, FP 1852, FN 1790
+  VAL   -> Loss 0.2003, Accuracy 92.34%, Precision 0.9193, Recall 0.9284, F1 0.9238, ROC-AUC 0.9751, TP 4178, TN 4133, FP 367, FN 322
+Epoch 14:
+  TRAIN -> Loss 0.2121, Accuracy 91.44%, Precision 0.9134, Recall 0.9156, F1 0.9145, ROC-AUC 0.9725, TP 19227, TN 19177, FP 1823, FN 1773
+  VAL   -> Loss 0.2002, Accuracy 92.17%, Precision 0.9071, Recall 0.9396, F1 0.9230, ROC-AUC 0.9756, TP 4228, TN 4067, FP 433, FN 272
+Epoch 15:
+  TRAIN -> Loss 0.2135, Accuracy 91.26%, Precision 0.9115, Recall 0.9140, F1 0.9128, ROC-AUC 0.9721, TP 19194, TN 19137, FP 1863, FN 1806
+  VAL   -> Loss 0.1997, Accuracy 92.32%, Precision 0.9079, Recall 0.9420, F1 0.9246, ROC-AUC 0.9760, TP 4239, TN 4070, FP 430, FN 261
+  TEST  -> Loss 0.1832, Accuracy 92.69%, Precision 0.9117, Recall 0.9453, F1 0.9282, ROC-AUC 0.9801, TP 4254, TN 4088, FP 412, FN 246
+
+Experiment: all_fakes
+----------------------------------------
+Epoch 1:
+  TRAIN -> Loss 0.3081, Accuracy 64.85%, Precision 0.8563, Recall 0.6385, F1 0.7316, ROC-AUC 0.7171, TP 40226, TN 14252, FP 6748, FN 22774
+  VAL   -> Loss 0.3008, Accuracy 60.32%, Precision 0.9001, Recall 0.5298, F1 0.6670, ROC-AUC 0.7475, TP 7152, TN 3706, FP 794, FN 6348
+Epoch 2:
+  TRAIN -> Loss 0.2994, Accuracy 66.50%, Precision 0.8663, Recall 0.6544, F1 0.7456, ROC-AUC 0.7390, TP 41226, TN 14638, FP 6362, FN 21774
+  VAL   -> Loss 0.2944, Accuracy 63.61%, Precision 0.8940, Recall 0.5841, F1 0.7065, ROC-AUC 0.7556, TP 7885, TN 3565, FP 935, FN 5615
+Epoch 3:
+  TRAIN -> Loss 0.2990, Accuracy 66.49%, Precision 0.8662, Recall 0.6542, F1 0.7454, ROC-AUC 0.7398, TP 41217, TN 14634, FP 6366, FN 21783
+  VAL   -> Loss 0.2948, Accuracy 62.54%, Precision 0.8952, Recall 0.5669, F1 0.6942, ROC-AUC 0.7568, TP 7653, TN 3604, FP 896, FN 5847
+Epoch 4:
+  TRAIN -> Loss 0.2978, Accuracy 66.73%, Precision 0.8674, Recall 0.6568, F1 0.7476, ROC-AUC 0.7428, TP 41380, TN 14673, FP 6327, FN 21620
+  VAL   -> Loss 0.2929, Accuracy 69.30%, Precision 0.8606, Recall 0.7048, F1 0.7750, ROC-AUC 0.7536, TP 9515, TN 2959, FP 1541, FN 3985
+Epoch 5:
+  TRAIN -> Loss 0.2996, Accuracy 66.47%, Precision 0.8650, Recall 0.6552, F1 0.7456, ROC-AUC 0.7397, TP 41278, TN 14559, FP 6441, FN 21722
+  VAL   -> Loss 0.2930, Accuracy 64.53%, Precision 0.8867, Recall 0.6043, F1 0.7188, ROC-AUC 0.7549, TP 8158, TN 3458, FP 1042, FN 5342
+Epoch 6:
+  TRAIN -> Loss 0.2979, Accuracy 66.82%, Precision 0.8672, Recall 0.6584, F1 0.7485, ROC-AUC 0.7429, TP 41477, TN 14648, FP 6352, FN 21523
+  VAL   -> Loss 0.2909, Accuracy 66.79%, Precision 0.8773, Recall 0.6478, F1 0.7453, ROC-AUC 0.7558, TP 8745, TN 3277, FP 1223, FN 4755
+Epoch 7:
+  TRAIN -> Loss 0.2991, Accuracy 66.61%, Precision 0.8663, Recall 0.6560, F1 0.7466, ROC-AUC 0.7409, TP 41330, TN 14620, FP 6380, FN 21670
+  VAL   -> Loss 0.3015, Accuracy 59.85%, Precision 0.9074, Recall 0.5175, F1 0.6591, ROC-AUC 0.7544, TP 6986, TN 3787, FP 713, FN 6514
+Epoch 8:
+  TRAIN -> Loss 0.2982, Accuracy 66.70%, Precision 0.8665, Recall 0.6573, F1 0.7475, ROC-AUC 0.7429, TP 41407, TN 14618, FP 6382, FN 21593
+  VAL   -> Loss 0.2975, Accuracy 71.16%, Precision 0.8432, Recall 0.7560, F1 0.7972, ROC-AUC 0.7514, TP 10206, TN 2602, FP 1898, FN 3294
+Epoch 9:
+  TRAIN -> Loss 0.2978, Accuracy 66.71%, Precision 0.8664, Recall 0.6575, F1 0.7476, ROC-AUC 0.7438, TP 41423, TN 14611, FP 6389, FN 21577
+  VAL   -> Loss 0.2992, Accuracy 72.07%, Precision 0.8393, Recall 0.7763, F1 0.8066, ROC-AUC 0.7545, TP 10480, TN 2493, FP 2007, FN 3020
+Epoch 10:
+  TRAIN -> Loss 0.2971, Accuracy 66.99%, Precision 0.8684, Recall 0.6598, F1 0.7499, ROC-AUC 0.7457, TP 41568, TN 14700, FP 6300, FN 21432
+  VAL   -> Loss 0.2967, Accuracy 62.09%, Precision 0.8930, Recall 0.5619, F1 0.6898, ROC-AUC 0.7520, TP 7586, TN 3591, FP 909, FN 5914
+Epoch 11:
+  TRAIN -> Loss 0.2938, Accuracy 67.21%, Precision 0.8707, Recall 0.6610, F1 0.7515, ROC-AUC 0.7507, TP 41644, TN 14815, FP 6185, FN 21356
+  VAL   -> Loss 0.2913, Accuracy 68.59%, Precision 0.8655, Recall 0.6881, F1 0.7667, ROC-AUC 0.7559, TP 9290, TN 3056, FP 1444, FN 4210
+  TEST  -> Loss 0.2898, Accuracy 66.72%, Precision 0.8806, Recall 0.6435, F1 0.7436, ROC-AUC 0.7590, TP 8687, TN 3322, FP 1178, FN 4813
+
