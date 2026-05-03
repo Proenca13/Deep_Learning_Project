@@ -1,0 +1,509 @@
+Experiment: inpainting
+----------------------------------------
+Epoch 1:
+  TRAIN -> Loss 0.3600, Accuracy 83.30%, Precision 0.8234, Recall 0.8478, F1 0.8354, ROC-AUC 0.9187, TP 17804, TN 17181, FP 3819, FN 3196
+  VAL   -> Loss 0.2403, Accuracy 90.02%, Precision 0.9200, Recall 0.8767, F1 0.8978, ROC-AUC 0.9676, TP 3945, TN 4157, FP 343, FN 555
+Epoch 2:
+  TRAIN -> Loss 0.2405, Accuracy 89.90%, Precision 0.8931, Recall 0.9065, F1 0.8997, ROC-AUC 0.9646, TP 19036, TN 18722, FP 2278, FN 1964
+  VAL   -> Loss 0.2244, Accuracy 90.49%, Precision 0.8854, Recall 0.9302, F1 0.9072, ROC-AUC 0.9697, TP 4186, TN 3958, FP 542, FN 314
+Epoch 3:
+  TRAIN -> Loss 0.1948, Accuracy 92.00%, Precision 0.9169, Recall 0.9238, F1 0.9203, ROC-AUC 0.9768, TP 19400, TN 19242, FP 1758, FN 1600
+  VAL   -> Loss 0.1819, Accuracy 92.52%, Precision 0.9170, Recall 0.9351, F1 0.9260, ROC-AUC 0.9806, TP 4208, TN 4119, FP 381, FN 292
+Epoch 4:
+  TRAIN -> Loss 0.1690, Accuracy 93.05%, Precision 0.9274, Recall 0.9341, F1 0.9307, ROC-AUC 0.9825, TP 19616, TN 19465, FP 1535, FN 1384
+  VAL   -> Loss 0.1638, Accuracy 93.77%, Precision 0.9158, Recall 0.9640, F1 0.9393, ROC-AUC 0.9858, TP 4338, TN 4101, FP 399, FN 162
+Epoch 5:
+  TRAIN -> Loss 0.1499, Accuracy 94.00%, Precision 0.9382, Recall 0.9420, F1 0.9401, ROC-AUC 0.9862, TP 19782, TN 19696, FP 1304, FN 1218
+  VAL   -> Loss 0.1779, Accuracy 92.71%, Precision 0.9464, Recall 0.9056, F1 0.9255, ROC-AUC 0.9826, TP 4075, TN 4269, FP 231, FN 425
+Epoch 6:
+  TRAIN -> Loss 0.1347, Accuracy 94.76%, Precision 0.9458, Recall 0.9497, F1 0.9477, ROC-AUC 0.9888, TP 19943, TN 19857, FP 1143, FN 1057
+  VAL   -> Loss 0.2082, Accuracy 91.54%, Precision 0.9737, Recall 0.8540, F1 0.9099, ROC-AUC 0.9851, TP 3843, TN 4396, FP 104, FN 657
+Epoch 7:
+  TRAIN -> Loss 0.1235, Accuracy 95.11%, Precision 0.9489, Recall 0.9535, F1 0.9512, ROC-AUC 0.9906, TP 20023, TN 19922, FP 1078, FN 977
+  VAL   -> Loss 0.1604, Accuracy 93.73%, Precision 0.9238, Recall 0.9533, F1 0.9383, ROC-AUC 0.9856, TP 4290, TN 4146, FP 354, FN 210
+Epoch 8:
+  TRAIN -> Loss 0.1109, Accuracy 95.74%, Precision 0.9562, Recall 0.9587, F1 0.9574, ROC-AUC 0.9924, TP 20132, TN 20077, FP 923, FN 868
+  VAL   -> Loss 0.1190, Accuracy 95.34%, Precision 0.9658, Recall 0.9402, F1 0.9528, ROC-AUC 0.9919, TP 4231, TN 4350, FP 150, FN 269
+Epoch 9:
+  TRAIN -> Loss 0.0993, Accuracy 96.16%, Precision 0.9606, Recall 0.9626, F1 0.9616, ROC-AUC 0.9938, TP 20215, TN 20171, FP 829, FN 785
+  VAL   -> Loss 0.1047, Accuracy 96.22%, Precision 0.9518, Recall 0.9738, F1 0.9627, ROC-AUC 0.9935, TP 4382, TN 4278, FP 222, FN 118
+Epoch 10:
+  TRAIN -> Loss 0.0948, Accuracy 96.29%, Precision 0.9620, Recall 0.9639, F1 0.9630, ROC-AUC 0.9943, TP 20242, TN 20201, FP 799, FN 758
+  VAL   -> Loss 0.1321, Accuracy 94.59%, Precision 0.9593, Recall 0.9313, F1 0.9451, ROC-AUC 0.9904, TP 4191, TN 4322, FP 178, FN 309
+Epoch 11:
+  TRAIN -> Loss 0.0874, Accuracy 96.62%, Precision 0.9651, Recall 0.9674, F1 0.9662, ROC-AUC 0.9952, TP 20315, TN 20265, FP 735, FN 685
+  VAL   -> Loss 0.1496, Accuracy 94.09%, Precision 0.9733, Recall 0.9067, F1 0.9388, ROC-AUC 0.9914, TP 4080, TN 4388, FP 112, FN 420
+Epoch 12:
+  TRAIN -> Loss 0.0824, Accuracy 96.79%, Precision 0.9673, Recall 0.9685, F1 0.9679, ROC-AUC 0.9957, TP 20338, TN 20312, FP 688, FN 662
+  VAL   -> Loss 0.1240, Accuracy 95.40%, Precision 0.9321, Recall 0.9793, F1 0.9551, ROC-AUC 0.9931, TP 4407, TN 4179, FP 321, FN 93
+Epoch 13:
+  TRAIN -> Loss 0.0779, Accuracy 97.06%, Precision 0.9702, Recall 0.9710, F1 0.9706, ROC-AUC 0.9961, TP 20391, TN 20373, FP 627, FN 609
+  VAL   -> Loss 0.1199, Accuracy 95.51%, Precision 0.9640, Recall 0.9456, F1 0.9547, ROC-AUC 0.9919, TP 4255, TN 4341, FP 159, FN 245
+Epoch 14:
+  TRAIN -> Loss 0.0457, Accuracy 98.31%, Precision 0.9827, Recall 0.9834, F1 0.9831, ROC-AUC 0.9986, TP 20652, TN 20637, FP 363, FN 348
+  VAL   -> Loss 0.1119, Accuracy 96.07%, Precision 0.9388, Recall 0.9856, F1 0.9616, ROC-AUC 0.9953, TP 4435, TN 4211, FP 289, FN 65
+  TEST  -> Loss 0.1032, Accuracy 95.98%, Precision 0.9506, Recall 0.9700, F1 0.9602, ROC-AUC 0.9937, TP 4365, TN 4273, FP 227, FN 135
+
+Experiment: insight
+----------------------------------------
+Epoch 1:
+  TRAIN -> Loss 0.4299, Accuracy 78.46%, Precision 0.7843, Recall 0.7851, F1 0.7847, ROC-AUC 0.8789, TP 16488, TN 16465, FP 4535, FN 4512
+  VAL   -> Loss 0.4197, Accuracy 80.00%, Precision 0.8760, Recall 0.6989, F1 0.7775, ROC-AUC 0.9102, TP 3145, TN 4055, FP 445, FN 1355
+Epoch 2:
+  TRAIN -> Loss 0.3354, Accuracy 84.07%, Precision 0.8428, Recall 0.8375, F1 0.8402, ROC-AUC 0.9290, TP 17588, TN 17720, FP 3280, FN 3412
+  VAL   -> Loss 0.3619, Accuracy 82.70%, Precision 0.8902, Recall 0.7460, F1 0.8118, ROC-AUC 0.9272, TP 3357, TN 4086, FP 414, FN 1143
+Epoch 3:
+  TRAIN -> Loss 0.2997, Accuracy 85.99%, Precision 0.8617, Recall 0.8573, F1 0.8595, ROC-AUC 0.9437, TP 18003, TN 18111, FP 2889, FN 2997
+  VAL   -> Loss 0.3088, Accuracy 85.08%, Precision 0.8303, Recall 0.8818, F1 0.8553, ROC-AUC 0.9409, TP 3968, TN 3689, FP 811, FN 532
+Epoch 4:
+  TRAIN -> Loss 0.2793, Accuracy 86.95%, Precision 0.8748, Recall 0.8623, F1 0.8685, ROC-AUC 0.9513, TP 18109, TN 18408, FP 2592, FN 2891
+  VAL   -> Loss 0.3211, Accuracy 84.20%, Precision 0.8122, Recall 0.8898, F1 0.8492, ROC-AUC 0.9392, TP 4004, TN 3574, FP 926, FN 496
+Epoch 5:
+  TRAIN -> Loss 0.2616, Accuracy 88.00%, Precision 0.8816, Recall 0.8780, F1 0.8798, ROC-AUC 0.9575, TP 18437, TN 18523, FP 2477, FN 2563
+  VAL   -> Loss 0.3034, Accuracy 86.13%, Precision 0.9125, Recall 0.7993, F1 0.8522, ROC-AUC 0.9525, TP 3597, TN 4155, FP 345, FN 903
+Epoch 6:
+  TRAIN -> Loss 0.2450, Accuracy 88.74%, Precision 0.8881, Recall 0.8864, F1 0.8872, ROC-AUC 0.9629, TP 18614, TN 18655, FP 2345, FN 2386
+  VAL   -> Loss 0.2912, Accuracy 86.19%, Precision 0.8399, Recall 0.8942, F1 0.8662, ROC-AUC 0.9488, TP 4024, TN 3733, FP 767, FN 476
+Epoch 7:
+  TRAIN -> Loss 0.2303, Accuracy 89.43%, Precision 0.8956, Recall 0.8926, F1 0.8941, ROC-AUC 0.9670, TP 18745, TN 18815, FP 2185, FN 2255
+  VAL   -> Loss 0.3125, Accuracy 85.50%, Precision 0.8069, Recall 0.9333, F1 0.8655, ROC-AUC 0.9500, TP 4200, TN 3495, FP 1005, FN 300
+Epoch 8:
+  TRAIN -> Loss 0.2257, Accuracy 89.64%, Precision 0.8943, Recall 0.8991, F1 0.8967, ROC-AUC 0.9685, TP 18881, TN 18769, FP 2231, FN 2119
+  VAL   -> Loss 0.3032, Accuracy 85.81%, Precision 0.8933, Recall 0.8133, F1 0.8515, ROC-AUC 0.9492, TP 3660, TN 4063, FP 437, FN 840
+Epoch 9:
+  TRAIN -> Loss 0.2110, Accuracy 90.32%, Precision 0.9034, Recall 0.9030, F1 0.9032, ROC-AUC 0.9725, TP 18963, TN 18973, FP 2027, FN 2037
+  VAL   -> Loss 0.2881, Accuracy 86.71%, Precision 0.8909, Recall 0.8367, F1 0.8629, ROC-AUC 0.9519, TP 3765, TN 4039, FP 461, FN 735
+Epoch 10:
+  TRAIN -> Loss 0.2055, Accuracy 90.68%, Precision 0.9067, Recall 0.9070, F1 0.9068, ROC-AUC 0.9739, TP 19046, TN 19041, FP 1959, FN 1954
+  VAL   -> Loss 0.2747, Accuracy 87.54%, Precision 0.8704, Recall 0.8822, F1 0.8763, ROC-AUC 0.9578, TP 3970, TN 3909, FP 591, FN 530
+Epoch 11:
+  TRAIN -> Loss 0.1928, Accuracy 91.15%, Precision 0.9112, Recall 0.9119, F1 0.9115, ROC-AUC 0.9770, TP 19150, TN 19133, FP 1867, FN 1850
+  VAL   -> Loss 0.2788, Accuracy 87.02%, Precision 0.8360, Recall 0.9211, F1 0.8765, ROC-AUC 0.9578, TP 4145, TN 3687, FP 813, FN 355
+Epoch 12:
+  TRAIN -> Loss 0.1856, Accuracy 91.61%, Precision 0.9155, Recall 0.9169, F1 0.9162, ROC-AUC 0.9788, TP 19254, TN 19222, FP 1778, FN 1746
+  VAL   -> Loss 0.2654, Accuracy 87.69%, Precision 0.8853, Recall 0.8660, F1 0.8755, ROC-AUC 0.9581, TP 3897, TN 3995, FP 505, FN 603
+Epoch 13:
+  TRAIN -> Loss 0.1788, Accuracy 91.75%, Precision 0.9177, Recall 0.9173, F1 0.9175, ROC-AUC 0.9803, TP 19263, TN 19273, FP 1727, FN 1737
+  VAL   -> Loss 0.2991, Accuracy 87.52%, Precision 0.9062, Recall 0.8371, F1 0.8703, ROC-AUC 0.9587, TP 3767, TN 4110, FP 390, FN 733
+Epoch 14:
+  TRAIN -> Loss 0.1716, Accuracy 92.20%, Precision 0.9221, Recall 0.9219, F1 0.9220, ROC-AUC 0.9819, TP 19360, TN 19365, FP 1635, FN 1640
+  VAL   -> Loss 0.2973, Accuracy 86.29%, Precision 0.8663, Recall 0.8582, F1 0.8622, ROC-AUC 0.9526, TP 3862, TN 3904, FP 596, FN 638
+Epoch 15:
+  TRAIN -> Loss 0.1657, Accuracy 92.57%, Precision 0.9249, Recall 0.9266, F1 0.9258, ROC-AUC 0.9832, TP 19459, TN 19421, FP 1579, FN 1541
+  VAL   -> Loss 0.3129, Accuracy 86.47%, Precision 0.8611, Recall 0.8696, F1 0.8653, ROC-AUC 0.9512, TP 3913, TN 3869, FP 631, FN 587
+  TEST  -> Loss 0.2424, Accuracy 88.83%, Precision 0.8947, Recall 0.8802, F1 0.8874, ROC-AUC 0.9645, TP 3961, TN 4034, FP 466, FN 539
+
+Experiment: text2img
+----------------------------------------
+Epoch 1:
+  TRAIN -> Loss 0.0847, Accuracy 96.68%, Precision 0.9677, Recall 0.9658, F1 0.9667, ROC-AUC 0.9954, TP 20282, TN 20322, FP 678, FN 718
+  VAL   -> Loss 0.0301, Accuracy 98.99%, Precision 0.9876, Recall 0.9922, F1 0.9899, ROC-AUC 0.9995, TP 4465, TN 4444, FP 56, FN 35
+Epoch 2:
+  TRAIN -> Loss 0.0437, Accuracy 98.40%, Precision 0.9832, Recall 0.9848, F1 0.9840, ROC-AUC 0.9987, TP 20681, TN 20646, FP 354, FN 319
+  VAL   -> Loss 0.0231, Accuracy 99.31%, Precision 0.9918, Recall 0.9944, F1 0.9931, ROC-AUC 0.9996, TP 4475, TN 4463, FP 37, FN 25
+Epoch 3:
+  TRAIN -> Loss 0.0335, Accuracy 98.77%, Precision 0.9872, Recall 0.9882, F1 0.9877, ROC-AUC 0.9992, TP 20752, TN 20731, FP 269, FN 248
+  VAL   -> Loss 0.0294, Accuracy 98.94%, Precision 0.9902, Recall 0.9887, F1 0.9894, ROC-AUC 0.9994, TP 4449, TN 4456, FP 44, FN 51
+Epoch 4:
+  TRAIN -> Loss 0.0283, Accuracy 98.94%, Precision 0.9894, Recall 0.9894, F1 0.9894, ROC-AUC 0.9995, TP 20777, TN 20778, FP 222, FN 223
+  VAL   -> Loss 0.0281, Accuracy 99.17%, Precision 0.9870, Recall 0.9964, F1 0.9917, ROC-AUC 0.9995, TP 4484, TN 4441, FP 59, FN 16
+Epoch 5:
+  TRAIN -> Loss 0.0257, Accuracy 99.06%, Precision 0.9901, Recall 0.9912, F1 0.9906, ROC-AUC 0.9995, TP 20815, TN 20792, FP 208, FN 185
+  VAL   -> Loss 0.0416, Accuracy 98.69%, Precision 0.9803, Recall 0.9938, F1 0.9870, ROC-AUC 0.9990, TP 4472, TN 4410, FP 90, FN 28
+Epoch 6:
+  TRAIN -> Loss 0.0229, Accuracy 99.18%, Precision 0.9918, Recall 0.9919, F1 0.9918, ROC-AUC 0.9996, TP 20829, TN 20827, FP 173, FN 171
+  VAL   -> Loss 0.0192, Accuracy 99.31%, Precision 0.9927, Recall 0.9936, F1 0.9931, ROC-AUC 0.9997, TP 4471, TN 4467, FP 33, FN 29
+Epoch 7:
+  TRAIN -> Loss 0.0209, Accuracy 99.28%, Precision 0.9923, Recall 0.9933, F1 0.9928, ROC-AUC 0.9997, TP 20860, TN 20839, FP 161, FN 140
+  VAL   -> Loss 0.0281, Accuracy 98.96%, Precision 0.9857, Recall 0.9936, F1 0.9896, ROC-AUC 0.9995, TP 4471, TN 4435, FP 65, FN 29
+Epoch 8:
+  TRAIN -> Loss 0.0187, Accuracy 99.36%, Precision 0.9938, Recall 0.9934, F1 0.9936, ROC-AUC 0.9997, TP 20862, TN 20870, FP 130, FN 138
+  VAL   -> Loss 0.0218, Accuracy 99.21%, Precision 0.9920, Recall 0.9922, F1 0.9921, ROC-AUC 0.9996, TP 4465, TN 4464, FP 36, FN 35
+Epoch 9:
+  TRAIN -> Loss 0.0165, Accuracy 99.41%, Precision 0.9939, Recall 0.9943, F1 0.9941, ROC-AUC 0.9998, TP 20881, TN 20871, FP 129, FN 119
+  VAL   -> Loss 0.0271, Accuracy 99.02%, Precision 0.9951, Recall 0.9853, F1 0.9902, ROC-AUC 0.9996, TP 4434, TN 4478, FP 22, FN 66
+Epoch 10:
+  TRAIN -> Loss 0.0152, Accuracy 99.48%, Precision 0.9949, Recall 0.9947, F1 0.9948, ROC-AUC 0.9998, TP 20889, TN 20892, FP 108, FN 111
+  VAL   -> Loss 0.0187, Accuracy 99.32%, Precision 0.9933, Recall 0.9931, F1 0.9932, ROC-AUC 0.9998, TP 4469, TN 4470, FP 30, FN 31
+Epoch 11:[up202207835@67ae76b54aed ~]$ conda activate mia_conda_env
+(mia_conda_env) [up202207835@67ae76b54aed ~]$ conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
+2 channel Terms of Service accepted
+Retrieving notices: done
+Channels:
+ - pytorch
+ - nvidia
+ - defaults
+Platform: linux-64
+Collecting package metadata (repodata.json): done
+Solving environment: done
+
+## Package Plan ##
+
+  environment location: /home/up202207835/miniconda3/envs/mia_conda_env
+
+  added / updated specs:
+    - pytorch
+    - pytorch-cuda=11.8
+    - torchaudio
+    - torchvision
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    aom-3.13.2                 |       h664349e_0         2.7 MB
+    blas-1.0                   |              mkl           6 KB
+    brotlicffi-1.2.0.0         |  py310h7354ed3_0         370 KB
+    cairo-1.18.4               |       h44eff21_0         728 KB
+    certifi-2026.4.22          |  py310h06a4308_0         132 KB
+    cffi-2.0.0                 |  py310h4eded50_1         237 KB
+    charset-normalizer-3.4.4   |  py310h06a4308_0          82 KB
+    cuda-cudart-11.8.89        |                0         197 KB  nvidia
+    cuda-cupti-11.8.87         |                0        25.3 MB  nvidia
+    cuda-libraries-11.8.0      |                0           1 KB  nvidia
+    cuda-nvrtc-11.8.89         |                0        19.1 MB  nvidia
+    cuda-nvtx-11.8.86          |                0          57 KB  nvidia
+    cuda-runtime-11.8.0        |                0           1 KB  nvidia
+    cuda-version-13.2          |       h6f5e358_3          17 KB  nvidia
+    dav1d-1.5.3                |       h3e43c27_0         763 KB
+    ffmpeg-4.2.2               |       h20bf706_0        59.6 MB
+    filelock-3.20.3            |  py310h06a4308_0          34 KB
+    fontconfig-2.15.0          |       h2c49b7f_0         262 KB
+    freetype-2.14.1            |       hf5b9546_0         634 KB
+    fribidi-1.0.16             |       h9fb5f84_0          58 KB
+    giflib-5.2.2               |       h5eee18b_0          80 KB
+    gmp-6.3.0                  |       h6a678d5_0         608 KB
+    gmpy2-2.2.2                |  py310ha78e65c_0         253 KB
+    gnutls-3.6.15              |       he1e5248_0         1.0 MB
+    graphite2-1.3.14           |       h295c915_1          97 KB
+    harfbuzz-12.3.0            |       h79d275a_1         2.0 MB
+    idna-3.11                  |  py310h06a4308_0         196 KB
+    intel-openmp-2025.0.0      |    h06a4308_1171        22.3 MB
+    jinja2-3.1.6               |  py310h06a4308_0         277 KB
+    jpeg-9f                    |       h5ce9db8_0         242 KB
+    lame-3.100                 |       hbd0596d_1         325 KB
+    lcms2-2.19                 |       he283960_0         243 KB
+    lerc-4.1.0                 |       h7354ed3_2         266 KB
+    libavif-1.3.0              |       h2b90b00_1         151 KB
+    libcublas-11.11.3.6        |                0       364.0 MB  nvidia
+    libcufft-10.9.0.58         |                0       142.8 MB  nvidia
+    libcufile-1.17.1.22        |       h4f1e1d6_0         1.0 MB  nvidia
+    libcurand-10.4.2.55        |       h91de7bb_0        41.7 MB  nvidia
+    libcusolver-11.4.1.48      |                0        96.5 MB  nvidia
+    libcusparse-11.7.5.86      |                0       176.3 MB  nvidia
+    libdeflate-1.22            |       h5eee18b_0          68 KB
+    libglib-2.86.3             |       h8b17d9a_0         3.9 MB
+    libhwloc-2.12.1            |default_hf1bbc79_1000         2.4 MB
+    libidn2-2.3.4              |       h5eee18b_0         146 KB
+    libjpeg-turbo-2.0.0        |       h9bf148f_0         950 KB  pytorch
+    libnl-3.11.0               |       hb25bd0a_0         797 KB
+    libnpp-11.8.0.86           |                0       147.8 MB  nvidia
+    libnvjpeg-11.9.0.86        |                0         2.4 MB  nvidia
+    libopenjpeg-2.5.4          |       hee96239_1         215 KB
+    libopus-1.6.1              |       h9f10d21_0         289 KB
+    libpng-1.6.56              |       h22898a0_0         243 KB
+    libstdcxx-ng-15.2.0        |       hc03a8fd_7          28 KB
+    libtasn1-4.21.0            |       h27ab2c4_0          71 KB
+    libtiff-4.7.1              |       h029b1ac_0         423 KB
+    libunistring-0.9.10        |       h27cfd23_0         536 KB
+    libvpx-1.7.0               |       h439df22_0         1.2 MB
+    libwebp-1.6.0              |       h089d785_0          90 KB
+    libwebp-base-1.6.0         |       hb7bb969_0         419 KB
+    llvm-openmp-14.0.6         |       h9e868ea_0         4.4 MB
+    markupsafe-3.0.2           |  py310h5eee18b_0          24 KB
+    mkl-2025.0.0               |     hacee8c2_941       127.4 MB
+    mkl-service-2.5.2          |  py310hacdc0fc_0          72 KB
+    mkl_fft-2.2.0              |  py310h44c8d7b_0         157 KB
+    mkl_random-1.3.0           |  py310h505adc9_0         302 KB
+    mpc-1.3.1                  |       h5eee18b_0         129 KB
+    mpfr-4.2.1                 |       h5eee18b_0         821 KB
+    mpmath-1.3.0               |  py310h06a4308_0         834 KB
+    nettle-3.7.3               |       hbbd107a_1         809 KB
+    networkx-3.4.2             |  py310h06a4308_0         2.5 MB
+    numpy-2.2.5                |  py310h08c6c3d_3          10 KB
+    numpy-base-2.2.5           |  py310h00548fb_3         7.5 MB
+    openh264-2.1.1             |       h4ff587b_0         711 KB
+    pillow-12.1.1              |  py310h8263a33_0        35.1 MB
+    pixman-0.46.4              |       h7934f7d_0         1.9 MB
+    pycparser-3.0              |  py310h06a4308_0         127 KB
+    pysocks-1.7.1              |  py310h06a4308_1          29 KB
+    pytorch-2.5.1              |py3.10_cuda11.8_cudnn9.1.0_0        1.54 GB  pytorch
+    pytorch-cuda-11.8          |       h7e8668a_6           7 KB  pytorch
+    pytorch-mutex-1.0          |             cuda           3 KB  pytorch
+    pyyaml-6.0.3               |  py310h591646f_0         221 KB
+    rdma-core-61.0             |       h7354ed3_0         1.2 MB
+    requests-2.33.1            |  py310h06a4308_0         142 KB
+    sympy-1.14.0               |  py310h06a4308_1        10.6 MB
+    tbb-2022.3.0               |       h698db13_0         181 KB
+    tbb-devel-2022.3.0         |       h698db13_0         1.1 MB
+    torchaudio-2.5.1           |      py310_cu118         6.2 MB  pytorch
+    torchtriton-3.1.0          |            py310       233.5 MB  pytorch
+    torchvision-0.20.1         |      py310_cu118         8.3 MB  pytorch
+    typing_extensions-4.15.0   |  py310h06a4308_0          80 KB
+    urllib3-2.6.3              |  py310h06a4308_0         297 KB
+    x264-1!157.20191217        |       h7b6447c_0         922 KB
+    xorg-libxext-1.3.6         |       h9b100fa_0          49 KB
+    xorg-libxrender-0.9.12     |       h9b100fa_0          31 KB
+    yaml-0.2.5                 |       h7b6447c_0          75 KB
+    ------------------------------------------------------------
+                                           Total:        3.07 GB
+
+The following NEW packages will be INSTALLED:
+
+  aom                pkgs/main/linux-64::aom-3.13.2-h664349e_0
+  blas               pkgs/main/linux-64::blas-1.0-mkl
+  brotlicffi         pkgs/main/linux-64::brotlicffi-1.2.0.0-py310h7354ed3_0
+  cairo              pkgs/main/linux-64::cairo-1.18.4-h44eff21_0
+  certifi            pkgs/main/linux-64::certifi-2026.4.22-py310h06a4308_0
+  cffi               pkgs/main/linux-64::cffi-2.0.0-py310h4eded50_1
+  charset-normalizer pkgs/main/linux-64::charset-normalizer-3.4.4-py310h06a4308_0
+  cuda-cudart        nvidia/linux-64::cuda-cudart-11.8.89-0
+  cuda-cupti         nvidia/linux-64::cuda-cupti-11.8.87-0
+  cuda-libraries     nvidia/linux-64::cuda-libraries-11.8.0-0
+  cuda-nvrtc         nvidia/linux-64::cuda-nvrtc-11.8.89-0
+  cuda-nvtx          nvidia/linux-64::cuda-nvtx-11.8.86-0
+  cuda-runtime       nvidia/linux-64::cuda-runtime-11.8.0-0
+  cuda-version       nvidia/noarch::cuda-version-13.2-h6f5e358_3
+  dav1d              pkgs/main/linux-64::dav1d-1.5.3-h3e43c27_0
+  expat              pkgs/main/linux-64::expat-2.7.5-h7354ed3_0
+  ffmpeg             pkgs/main/linux-64::ffmpeg-4.2.2-h20bf706_0
+  filelock           pkgs/main/linux-64::filelock-3.20.3-py310h06a4308_0
+  fontconfig         pkgs/main/linux-64::fontconfig-2.15.0-h2c49b7f_0
+  freetype           pkgs/main/linux-64::freetype-2.14.1-hf5b9546_0
+  fribidi            pkgs/main/linux-64::fribidi-1.0.16-h9fb5f84_0
+  giflib             pkgs/main/linux-64::giflib-5.2.2-h5eee18b_0
+  gmp                pkgs/main/linux-64::gmp-6.3.0-h6a678d5_0
+  gmpy2              pkgs/main/linux-64::gmpy2-2.2.2-py310ha78e65c_0
+  gnutls             pkgs/main/linux-64::gnutls-3.6.15-he1e5248_0
+  graphite2          pkgs/main/linux-64::graphite2-1.3.14-h295c915_1
+  harfbuzz           pkgs/main/linux-64::harfbuzz-12.3.0-h79d275a_1
+  icu                pkgs/main/linux-64::icu-73.1-h6a678d5_0
+  idna               pkgs/main/linux-64::idna-3.11-py310h06a4308_0
+  intel-openmp       pkgs/main/linux-64::intel-openmp-2025.0.0-h06a4308_1171
+  jinja2             pkgs/main/linux-64::jinja2-3.1.6-py310h06a4308_0
+  jpeg               pkgs/main/linux-64::jpeg-9f-h5ce9db8_0
+  lame               pkgs/main/linux-64::lame-3.100-hbd0596d_1
+  lcms2              pkgs/main/linux-64::lcms2-2.19-he283960_0
+  lerc               pkgs/main/linux-64::lerc-4.1.0-h7354ed3_2
+  libavif            pkgs/main/linux-64::libavif-1.3.0-h2b90b00_1
+  libcublas          nvidia/linux-64::libcublas-11.11.3.6-0
+  libcufft           nvidia/linux-64::libcufft-10.9.0.58-0
+  libcufile          nvidia/linux-64::libcufile-1.17.1.22-h4f1e1d6_0
+  libcurand          nvidia/linux-64::libcurand-10.4.2.55-h91de7bb_0
+  libcusolver        nvidia/linux-64::libcusolver-11.4.1.48-0
+  libcusparse        nvidia/linux-64::libcusparse-11.7.5.86-0
+  libdeflate         pkgs/main/linux-64::libdeflate-1.22-h5eee18b_0
+  libglib            pkgs/main/linux-64::libglib-2.86.3-h8b17d9a_0
+  libhwloc           pkgs/main/linux-64::libhwloc-2.12.1-default_hf1bbc79_1000
+  libiconv           pkgs/main/linux-64::libiconv-1.18-h75a1612_0
+  libidn2            pkgs/main/linux-64::libidn2-2.3.4-h5eee18b_0
+  libjpeg-turbo      pytorch/linux-64::libjpeg-turbo-2.0.0-h9bf148f_0
+  libnl              pkgs/main/linux-64::libnl-3.11.0-hb25bd0a_0
+  libnpp             nvidia/linux-64::libnpp-11.8.0.86-0
+  libnvjpeg          nvidia/linux-64::libnvjpeg-11.9.0.86-0
+  libopenjpeg        pkgs/main/linux-64::libopenjpeg-2.5.4-hee96239_1
+  libopus            pkgs/main/linux-64::libopus-1.6.1-h9f10d21_0
+  libpng             pkgs/main/linux-64::libpng-1.6.56-h22898a0_0
+  libstdcxx-ng       pkgs/main/linux-64::libstdcxx-ng-15.2.0-hc03a8fd_7
+  libtasn1           pkgs/main/linux-64::libtasn1-4.21.0-h27ab2c4_0
+  libtiff            pkgs/main/linux-64::libtiff-4.7.1-h029b1ac_0
+  libunistring       pkgs/main/linux-64::libunistring-0.9.10-h27cfd23_0
+  libvpx             pkgs/main/linux-64::libvpx-1.7.0-h439df22_0
+  libwebp            pkgs/main/linux-64::libwebp-1.6.0-h089d785_0
+  libwebp-base       pkgs/main/linux-64::libwebp-base-1.6.0-hb7bb969_0
+  libxml2            pkgs/main/linux-64::libxml2-2.13.9-h2c43086_0
+  llvm-openmp        pkgs/main/linux-64::llvm-openmp-14.0.6-h9e868ea_0
+  lz4-c              pkgs/main/linux-64::lz4-c-1.9.4-h6a678d5_1
+  markupsafe         pkgs/main/linux-64::markupsafe-3.0.2-py310h5eee18b_0
+  mkl                pkgs/main/linux-64::mkl-2025.0.0-hacee8c2_941
+  mkl-service        pkgs/main/linux-64::mkl-service-2.5.2-py310hacdc0fc_0
+  mkl_fft            pkgs/main/linux-64::mkl_fft-2.2.0-py310h44c8d7b_0
+  mkl_random         pkgs/main/linux-64::mkl_random-1.3.0-py310h505adc9_0
+  mpc                pkgs/main/linux-64::mpc-1.3.1-h5eee18b_0
+  mpfr               pkgs/main/linux-64::mpfr-4.2.1-h5eee18b_0
+  mpmath             pkgs/main/linux-64::mpmath-1.3.0-py310h06a4308_0
+  nettle             pkgs/main/linux-64::nettle-3.7.3-hbbd107a_1
+  networkx           pkgs/main/linux-64::networkx-3.4.2-py310h06a4308_0
+  numpy              pkgs/main/linux-64::numpy-2.2.5-py310h08c6c3d_3
+  numpy-base         pkgs/main/linux-64::numpy-base-2.2.5-py310h00548fb_3
+  openh264           pkgs/main/linux-64::openh264-2.1.1-h4ff587b_0
+  pcre2              pkgs/main/linux-64::pcre2-10.46-hf426167_0
+  pillow             pkgs/main/linux-64::pillow-12.1.1-py310h8263a33_0
+  pixman             pkgs/main/linux-64::pixman-0.46.4-h7934f7d_0
+  pycparser          pkgs/main/linux-64::pycparser-3.0-py310h06a4308_0
+  pysocks            pkgs/main/linux-64::pysocks-1.7.1-py310h06a4308_1
+  pytorch            pytorch/linux-64::pytorch-2.5.1-py3.10_cuda11.8_cudnn9.1.0_0
+  pytorch-cuda       pytorch/linux-64::pytorch-cuda-11.8-h7e8668a_6
+  pytorch-mutex      pytorch/noarch::pytorch-mutex-1.0-cuda
+  pyyaml             pkgs/main/linux-64::pyyaml-6.0.3-py310h591646f_0
+  rdma-core          pkgs/main/linux-64::rdma-core-61.0-h7354ed3_0
+  requests           pkgs/main/linux-64::requests-2.33.1-py310h06a4308_0
+  sympy              pkgs/main/linux-64::sympy-1.14.0-py310h06a4308_1
+  tbb                pkgs/main/linux-64::tbb-2022.3.0-h698db13_0
+  tbb-devel          pkgs/main/linux-64::tbb-devel-2022.3.0-h698db13_0
+  torchaudio         pytorch/linux-64::torchaudio-2.5.1-py310_cu118
+  torchtriton        pytorch/linux-64::torchtriton-3.1.0-py310
+  torchvision        pytorch/linux-64::torchvision-0.20.1-py310_cu118
+  typing_extensions  pkgs/main/linux-64::typing_extensions-4.15.0-py310h06a4308_0
+  urllib3            pkgs/main/linux-64::urllib3-2.6.3-py310h06a4308_0
+  x264               pkgs/main/linux-64::x264-1!157.20191217-h7b6447c_0
+  xorg-libxext       pkgs/main/linux-64::xorg-libxext-1.3.6-h9b100fa_0
+  xorg-libxrender    pkgs/main/linux-64::xorg-libxrender-0.9.12-h9b100fa_0
+  yaml               pkgs/main/linux-64::yaml-0.2.5-h7b6447c_0
+  zstd               pkgs/main/linux-64::zstd-1.5.7-h11fc155_0
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages:
+
+
+CondaError: Failed to write to /home/up202207835/miniconda3/pkgs/pytorch-2.5.1-py3.10_cuda11.8_cudnn9.1.0_0.tar.bz2.partial
+  errno: 122
+CondaError: Failed to write to /home/up202207835/miniconda3/pkgs/pytorch-2.5.1-py3.10_cuda11.8_cudnn9.1.0_0.tar.bz2.partial
+  errno: 122
+InvalidArchiveError('Error with archive /home/up202207835/miniconda3/pkgs/libglib-2.86.3-h8b17d9a_0.conda.  You probably need to delete and re-download or re-create this file.  Message was:\n\nfailed with error: [Errno 122] Disk quota exceeded')
+InvalidArchiveError('Error with archive /home/up202207835/miniconda3/pkgs/mkl-2025.0.0-hacee8c2_941.conda.  You probably need to delete and re-download or re-create this file.  Message was:\n\nfailed with error: [Errno 122] Disk quota exceeded')
+InvalidArchiveError("Error with archive /home/up202207835/miniconda3/pkgs/networkx-3.4.2-py310h06a4308_0.conda.  You probably need to delete and re-download or re-create this file.  Message was:\n\nfailed with error: [Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/networkx-3.4.2-py310h06a4308_0/lib/python3.10/site-packages/networkx/classes/reportviews.py'")
+InvalidArchiveError('Error with archive /home/up202207835/miniconda3/pkgs/libnvjpeg-11.9.0.86-0.tar.bz2.  You probably need to delete and re-download or re-create this file.  Message was:\n\nfailed with error: [Errno 122] Disk quota exceeded')
+InvalidArchiveError("Error with archive /home/up202207835/miniconda3/pkgs/harfbuzz-12.3.0-h79d275a_1.conda.  You probably need to delete and re-download or re-create this file.  Message was:\n\nfailed with error: [Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/harfbuzz-12.3.0-h79d275a_1/lib/libharfbuzz-subset.a'")
+InvalidArchiveError('Error with archive /home/up202207835/miniconda3/pkgs/pixman-0.46.4-h7934f7d_0.conda.  You probably need to delete and re-download or re-create this file.  Message was:\n\nfailed with error: [Errno 122] Disk quota exceeded')
+InvalidArchiveError("Error with archive /home/up202207835/miniconda3/pkgs/rdma-core-61.0-h7354ed3_0.conda.  You probably need to delete and re-download or re-create this file.  Message was:\n\nfailed with error: [Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/rdma-core-61.0-h7354ed3_0/share/man/man3/mlx5dv_get_data_direct_sysfs_path.3'")
+InvalidArchiveError("Error with archive /home/up202207835/miniconda3/pkgs/libvpx-1.7.0-h439df22_0.conda.  You probably need to delete and re-download or re-create this file.  Message was:\n\nfailed with error: [Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/libvpx-1.7.0-h439df22_0/include/vpx/vp8dx.h'")
+InvalidArchiveError("Error with archive /home/up202207835/miniconda3/pkgs/tbb-devel-2022.3.0-h698db13_0.conda.  You probably need to delete and re-download or re-create this file.  Message was:\n\nfailed with error: [Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/tbb-devel-2022.3.0-h698db13_0/info'")
+[Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/libcufile-1.17.1.22-h4f1e1d6_0'
+[Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/libjpeg-turbo-2.0.0-h9bf148f_0'
+[Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/gnutls-3.6.15-he1e5248_0'
+[Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/x264-1!157.20191217-h7b6447c_0'
+[Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/mpmath-1.3.0-py310h06a4308_0'
+[Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/nettle-3.7.3-hbbd107a_1'
+[Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/mpfr-4.2.1-h5eee18b_0'
+[Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/dav1d-1.5.3-h3e43c27_0'
+[Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/libnl-3.11.0-hb25bd0a_0'
+[Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/cairo-1.18.4-h44eff21_0'
+[Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/openh264-2.1.1-h4ff587b_0'
+[Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/libunistring-0.9.10-h27cfd23_0'
+[Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/freetype-2.14.1-hf5b9546_0'
+[Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/gmp-6.3.0-h6a678d5_0'
+[Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/libtiff-4.7.1-h029b1ac_0'
+[Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/libwebp-base-1.6.0-hb7bb969_0'
+[Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/lame-3.100-hbd0596d_1'
+[Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/brotlicffi-1.2.0.0-py310h7354ed3_0'
+[Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/urllib3-2.6.3-py310h06a4308_0'
+[Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/mkl_random-1.3.0-py310h505adc9_0'
+[Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/jinja2-3.1.6-py310h06a4308_0'
+[Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/libopus-1.6.1-h9f10d21_0'
+[Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/lerc-4.1.0-h7354ed3_2'
+[Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/fontconfig-2.15.0-h2c49b7f_0'
+[Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/libpng-1.6.56-h22898a0_0'
+[Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/lcms2-2.19-he283960_0'
+[Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/gmpy2-2.2.2-py310ha78e65c_0'
+[Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/jpeg-9f-h5ce9db8_0'
+[Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/cffi-2.0.0-py310h4eded50_1'
+[Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/pyyaml-6.0.3-py310h591646f_0'
+[Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/libopenjpeg-2.5.4-hee96239_1'
+[Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/tbb-2022.3.0-h698db13_0'
+[Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/cuda-cudart-11.8.89-0'
+[Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/idna-3.11-py310h06a4308_0'
+[Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/mkl_fft-2.2.0-py310h44c8d7b_0'
+[Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/libavif-1.3.0-h2b90b00_1'
+[Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/requests-2.33.1-py310h06a4308_0'
+[Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/libidn2-2.3.4-h5eee18b_0'
+[Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/certifi-2026.4.22-py310h06a4308_0'
+[Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/mpc-1.3.1-h5eee18b_0'
+[Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/pycparser-3.0-py310h06a4308_0'
+[Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/libwebp-1.6.0-h089d785_0'
+[Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/graphite2-1.3.14-h295c915_1'
+[Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/giflib-5.2.2-h5eee18b_0'
+[Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/charset-normalizer-3.4.4-py310h06a4308_0'
+[Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/yaml-0.2.5-h7b6447c_0'
+[Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/typing_extensions-4.15.0-py310h06a4308_0'
+[Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/mkl-service-2.5.2-py310hacdc0fc_0'
+[Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/libtasn1-4.21.0-h27ab2c4_0'
+[Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/libdeflate-1.22-h5eee18b_0'
+[Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/fribidi-1.0.16-h9fb5f84_0'
+[Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/xorg-libxext-1.3.6-h9b100fa_0'
+[Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/xorg-libxrender-0.9.12-h9b100fa_0'
+[Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/cuda-nvtx-11.8.86-0'
+[Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/filelock-3.20.3-py310h06a4308_0'
+[Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/pysocks-1.7.1-py310h06a4308_1'
+[Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/libstdcxx-ng-15.2.0-hc03a8fd_7'
+[Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/cuda-version-13.2-h6f5e358_3'
+[Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/markupsafe-3.0.2-py310h5eee18b_0'
+[Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/numpy-2.2.5-py310h08c6c3d_3'
+[Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/pytorch-cuda-11.8-h7e8668a_6'
+[Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/pytorch-mutex-1.0-cuda'
+[Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/blas-1.0-mkl'
+[Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/cuda-libraries-11.8.0-0'
+[Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/cuda-runtime-11.8.0-0'
+[Errno 122] Disk quota exceeded: '/home/up202207835/miniconda3/pkgs/libcublas-11.11.3.6-0'
+InvalidArchiveError('Error with archive /home/up202207835/miniconda3/pkgs/libcufft-10.9.0.58-0.tar.bz2.  You probably need to delete and re-download or re-create this file.  Message was:\n\nfailed with error: [Errno 122] Disk quota exceeded')
+
+
+  TRAIN -> Loss 0.0154, Accuracy 99.44%, Precision 0.9943, Recall 0.9945, F1 0.9944, ROC-AUC 0.9998, TP 20885, TN 20881, FP 119, FN 115
+  VAL   -> Loss 0.0605, Accuracy 97.88%, Precision 0.9954, Recall 0.9620, F1 0.9784, ROC-AUC 0.9990, TP 4329, TN 4480, FP 20, FN 171
+Epoch 12:
+  TRAIN -> Loss 0.0128, Accuracy 99.59%, Precision 0.9957, Recall 0.9961, F1 0.9959, ROC-AUC 0.9999, TP 20919, TN 20909, FP 91, FN 81
+  VAL   -> Loss 0.0310, Accuracy 99.03%, Precision 0.9940, Recall 0.9867, F1 0.9903, ROC-AUC 0.9993, TP 4440, TN 4473, FP 27, FN 60
+Epoch 13:
+  TRAIN -> Loss 0.0142, Accuracy 99.49%, Precision 0.9946, Recall 0.9952, F1 0.9949, ROC-AUC 0.9999, TP 20899, TN 20886, FP 114, FN 101
+  VAL   -> Loss 0.0338, Accuracy 98.84%, Precision 0.9793, Recall 0.9980, F1 0.9886, ROC-AUC 0.9997, TP 4491, TN 4405, FP 95, FN 9
+Epoch 14:
+  TRAIN -> Loss 0.0101, Accuracy 99.63%, Precision 0.9963, Recall 0.9963, F1 0.9963, ROC-AUC 0.9999, TP 20922, TN 20922, FP 78, FN 78
+  VAL   -> Loss 0.0450, Accuracy 98.62%, Precision 0.9752, Recall 0.9978, F1 0.9864, ROC-AUC 0.9996, TP 4490, TN 4386, FP 114, FN 10
+Epoch 15:
+  TRAIN -> Loss 0.0049, Accuracy 99.83%, Precision 0.9985, Recall 0.9981, F1 0.9983, ROC-AUC 1.0000, TP 20960, TN 20968, FP 32, FN 40
+  VAL   -> Loss 0.0146, Accuracy 99.57%, Precision 0.9958, Recall 0.9956, F1 0.9957, ROC-AUC 0.9998, TP 4480, TN 4481, FP 19, FN 20
+  TEST  -> Loss 0.0188, Accuracy 99.39%, Precision 0.9925, Recall 0.9953, F1 0.9939, ROC-AUC 0.9998, TP 4479, TN 4466, FP 34, FN 21
+
+Experiment: all_fakes
+----------------------------------------
+Epoch 1:
+  TRAIN -> Loss 0.2101, Accuracy 78.53%, Precision 0.9252, Recall 0.7764, F1 0.8443, ROC-AUC 0.8848, TP 48915, TN 17047, FP 3953, FN 14085
+  VAL   -> Loss 0.1713, Accuracy 82.08%, Precision 0.9472, Recall 0.8060, F1 0.8709, ROC-AUC 0.9254, TP 10881, TN 3894, FP 606, FN 2619
+Epoch 2:
+  TRAIN -> Loss 0.1639, Accuracy 84.12%, Precision 0.9485, Recall 0.8335, F1 0.8873, ROC-AUC 0.9327, TP 52512, TN 18146, FP 2854, FN 10488
+  VAL   -> Loss 0.1430, Accuracy 86.92%, Precision 0.9564, Recall 0.8650, F1 0.9084, ROC-AUC 0.9503, TP 11678, TN 3968, FP 532, FN 1822
+Epoch 3:
+  TRAIN -> Loss 0.1441, Accuracy 86.18%, Precision 0.9578, Recall 0.8533, F1 0.9026, ROC-AUC 0.9482, TP 53760, TN 18631, FP 2369, FN 9240
+  VAL   -> Loss 0.1548, Accuracy 87.31%, Precision 0.9394, Recall 0.8881, F1 0.9130, ROC-AUC 0.9443, TP 11990, TN 3726, FP 774, FN 1510
+Epoch 4:
+  TRAIN -> Loss 0.1320, Accuracy 87.71%, Precision 0.9634, Recall 0.8692, F1 0.9138, ROC-AUC 0.9568, TP 54757, TN 18918, FP 2082, FN 8243
+  VAL   -> Loss 0.1443, Accuracy 87.09%, Precision 0.9514, Recall 0.8725, F1 0.9102, ROC-AUC 0.9493, TP 11779, TN 3898, FP 602, FN 1721
+Epoch 5:
+  TRAIN -> Loss 0.1213, Accuracy 88.65%, Precision 0.9669, Recall 0.8788, F1 0.9208, ROC-AUC 0.9636, TP 55363, TN 19107, FP 1893, FN 7637
+  VAL   -> Loss 0.1244, Accuracy 89.45%, Precision 0.9589, Recall 0.8979, F1 0.9274, ROC-AUC 0.9627, TP 12121, TN 3980, FP 520, FN 1379
+Epoch 6:
+  TRAIN -> Loss 0.1127, Accuracy 89.35%, Precision 0.9694, Recall 0.8859, F1 0.9258, ROC-AUC 0.9685, TP 55811, TN 19239, FP 1761, FN 7189
+  VAL   -> Loss 0.1440, Accuracy 89.17%, Precision 0.9445, Recall 0.9090, F1 0.9264, ROC-AUC 0.9556, TP 12272, TN 3779, FP 721, FN 1228
+Epoch 7:
+  TRAIN -> Loss 0.1066, Accuracy 90.08%, Precision 0.9723, Recall 0.8932, F1 0.9310, ROC-AUC 0.9718, TP 56271, TN 19394, FP 1606, FN 6729
+  VAL   -> Loss 0.1101, Accuracy 88.91%, Precision 0.9765, Recall 0.8732, F1 0.9219, ROC-AUC 0.9711, TP 11788, TN 4216, FP 284, FN 1712
+Epoch 8:
+  TRAIN -> Loss 0.1000, Accuracy 90.70%, Precision 0.9741, Recall 0.8999, F1 0.9355, ROC-AUC 0.9752, TP 56693, TN 19492, FP 1508, FN 6307
+  VAL   -> Loss 0.1202, Accuracy 89.59%, Precision 0.9618, Recall 0.8968, F1 0.9282, ROC-AUC 0.9651, TP 12107, TN 4019, FP 481, FN 1393
+Epoch 9:
+  TRAIN -> Loss 0.0944, Accuracy 91.24%, Precision 0.9755, Recall 0.9060, F1 0.9395, ROC-AUC 0.9778, TP 57076, TN 19567, FP 1433, FN 5924
+  VAL   -> Loss 0.1154, Accuracy 90.09%, Precision 0.9662, Recall 0.8993, F1 0.9316, ROC-AUC 0.9694, TP 12141, TN 4075, FP 425, FN 1359
+Epoch 10:
+  TRAIN -> Loss 0.0902, Accuracy 91.64%, Precision 0.9770, Recall 0.9100, F1 0.9423, ROC-AUC 0.9798, TP 57328, TN 19648, FP 1352, FN 5672
+  VAL   -> Loss 0.1078, Accuracy 90.07%, Precision 0.9734, Recall 0.8919, F1 0.9309, ROC-AUC 0.9726, TP 12041, TN 4171, FP 329, FN 1459
+Epoch 11:
+  TRAIN -> Loss 0.0856, Accuracy 92.03%, Precision 0.9785, Recall 0.9138, F1 0.9450, ROC-AUC 0.9818, TP 57568, TN 19737, FP 1263, FN 5432
+  VAL   -> Loss 0.1174, Accuracy 89.52%, Precision 0.9668, Recall 0.8909, F1 0.9273, ROC-AUC 0.9672, TP 12027, TN 4087, FP 413, FN 1473
+Epoch 12:
+  TRAIN -> Loss 0.0828, Accuracy 92.30%, Precision 0.9805, Recall 0.9155, F1 0.9469, ROC-AUC 0.9828, TP 57678, TN 19852, FP 1148, FN 5322
+  VAL   -> Loss 0.1532, Accuracy 92.02%, Precision 0.9304, Recall 0.9659, F1 0.9478, ROC-AUC 0.9723, TP 13039, TN 3525, FP 975, FN 461
+Epoch 13:
+  TRAIN -> Loss 0.0780, Accuracy 92.89%, Precision 0.9809, Recall 0.9232, F1 0.9512, ROC-AUC 0.9849, TP 58160, TN 19867, FP 1133, FN 4840
+  VAL   -> Loss 0.1174, Accuracy 90.91%, Precision 0.9609, Recall 0.9161, F1 0.9380, ROC-AUC 0.9714, TP 12367, TN 3997, FP 503, FN 1133
+Epoch 14:
+  TRAIN -> Loss 0.0740, Accuracy 93.25%, Precision 0.9820, Recall 0.9269, F1 0.9537, ROC-AUC 0.9864, TP 58397, TN 19931, FP 1069, FN 4603
+  VAL   -> Loss 0.1299, Accuracy 92.13%, Precision 0.9490, Recall 0.9459, F1 0.9474, ROC-AUC 0.9736, TP 12769, TN 3814, FP 686, FN 731
+Epoch 15:
+  TRAIN -> Loss 0.0593, Accuracy 94.63%, Precision 0.9863, Recall 0.9415, F1 0.9634, ROC-AUC 0.9911, TP 59312, TN 20177, FP 823, FN 3688
+  VAL   -> Loss 0.0980, Accuracy 92.78%, Precision 0.9659, Recall 0.9367, F1 0.9511, ROC-AUC 0.9809, TP 12646, TN 4054, FP 446, FN 854
+  TEST  -> Loss 0.0886, Accuracy 93.27%, Precision 0.9704, Recall 0.9390, F1 0.9544, ROC-AUC 0.9835, TP 12676, TN 4113, FP 387, FN 824
+
