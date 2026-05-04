@@ -1,5 +1,4 @@
 data/
 .venv
-experiment_logs/ViT_B_16_frozen/model_inpainting.pth
-experiment_logs/ViT_B_16_frozen/model_insight.pth
-experiment_logs/ViT_B_16_frozen/model_text2img.pth
+experiment_logs/no_augmentation/*ViT*/**/*.pth
+experiment_logs/augmentation/*ViT*/**/*.pth
