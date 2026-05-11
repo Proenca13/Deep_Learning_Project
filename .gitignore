@@ -1,4 +1,4 @@
 data/
 .venv
-experiment_logs/no_augmentation/*ViT*/**/*.pth
-experiment_logs/augmentation/*ViT*/**/*.pth
+experiment_logs/classifiers/no_augmentation/*ViT*/**/*.pth
+experiment_logs/classifiers/augmentation/*ViT*/**/*.pth
