@@ -3,3 +3,4 @@ data/
 experiment_logs/classifiers/no_augmentation/*ViT*/**/*.pth
 experiment_logs/classifiers/augmentation/*ViT*/**/*.pth
 experiment_logs/generators/DCGAN_v1/checkpoint.pt
+experiment_logs/generators/DCGAN_v2/checkpoint.pt

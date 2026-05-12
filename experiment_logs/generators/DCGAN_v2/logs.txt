@@ -1,0 +1,100 @@
+Epoch 001 | G_loss 0.8540, D_loss 1.2170 | D(x) 0.6939, D(G(z)) 0.4768
+Epoch 002 | G_loss 0.7580, D_loss 1.2783 | D(x) 0.6519, D(G(z)) 0.5063
+Epoch 003 | G_loss 0.7196, D_loss 1.2936 | D(x) 0.6391, D(G(z)) 0.5149
+Epoch 004 | G_loss 0.7500, D_loss 1.2835 | D(x) 0.6441, D(G(z)) 0.5070
+Epoch 005 | G_loss 0.7184, D_loss 1.2819 | D(x) 0.6524, D(G(z)) 0.5161
+Epoch 006 | G_loss 0.7662, D_loss 1.2937 | D(x) 0.6208, D(G(z)) 0.5071
+Epoch 007 | G_loss 0.7840, D_loss 1.2591 | D(x) 0.6461, D(G(z)) 0.4977
+Epoch 008 | G_loss 0.7810, D_loss 1.2154 | D(x) 0.6829, D(G(z)) 0.4895
+Epoch 009 | G_loss 0.7582, D_loss 1.2014 | D(x) 0.7132, D(G(z)) 0.4933
+Epoch 010 | G_loss 0.7566, D_loss 1.1706 | D(x) 0.7417, D(G(z)) 0.4903, FID 297.35
+Epoch 011 | G_loss 0.7084, D_loss 1.1890 | D(x) 0.7490, D(G(z)) 0.5073
+Epoch 012 | G_loss 0.7015, D_loss 1.1926 | D(x) 0.7519, D(G(z)) 0.5108
+Epoch 013 | G_loss 0.6965, D_loss 1.1895 | D(x) 0.7579, D(G(z)) 0.5120
+Epoch 014 | G_loss 0.6927, D_loss 1.1884 | D(x) 0.7598, D(G(z)) 0.5134
+Epoch 015 | G_loss 0.6927, D_loss 1.1786 | D(x) 0.7711, D(G(z)) 0.5127
+Epoch 016 | G_loss 0.6897, D_loss 1.1804 | D(x) 0.7733, D(G(z)) 0.5149
+Epoch 017 | G_loss 0.6905, D_loss 1.1720 | D(x) 0.7810, D(G(z)) 0.5128
+Epoch 018 | G_loss 0.6891, D_loss 1.1742 | D(x) 0.7809, D(G(z)) 0.5140
+Epoch 019 | G_loss 0.6903, D_loss 1.1693 | D(x) 0.7834, D(G(z)) 0.5125
+Epoch 020 | G_loss 0.6896, D_loss 1.1749 | D(x) 0.7813, D(G(z)) 0.5147, FID 280.24
+Epoch 021 | G_loss 0.6910, D_loss 1.1696 | D(x) 0.7849, D(G(z)) 0.5134
+Epoch 022 | G_loss 0.6900, D_loss 1.1674 | D(x) 0.7855, D(G(z)) 0.5125
+Epoch 023 | G_loss 0.6899, D_loss 1.1698 | D(x) 0.7847, D(G(z)) 0.5134
+Epoch 024 | G_loss 0.6900, D_loss 1.1718 | D(x) 0.7830, D(G(z)) 0.5141
+Epoch 025 | G_loss 0.6895, D_loss 1.1709 | D(x) 0.7833, D(G(z)) 0.5139
+Epoch 026 | G_loss 0.6903, D_loss 1.1701 | D(x) 0.7850, D(G(z)) 0.5138
+Epoch 027 | G_loss 0.6893, D_loss 1.1670 | D(x) 0.7874, D(G(z)) 0.5130
+Epoch 028 | G_loss 0.6898, D_loss 1.1764 | D(x) 0.7786, D(G(z)) 0.5157
+Epoch 029 | G_loss 0.6898, D_loss 1.1688 | D(x) 0.7841, D(G(z)) 0.5135
+Epoch 030 | G_loss 0.6898, D_loss 1.1752 | D(x) 0.7798, D(G(z)) 0.5155, FID 268.77
+Epoch 031 | G_loss 0.6915, D_loss 1.1711 | D(x) 0.7814, D(G(z)) 0.5138
+Epoch 032 | G_loss 0.6890, D_loss 1.1646 | D(x) 0.7882, D(G(z)) 0.5119
+Epoch 033 | G_loss 0.6892, D_loss 1.1739 | D(x) 0.7796, D(G(z)) 0.5149
+Epoch 034 | G_loss 0.6892, D_loss 1.1789 | D(x) 0.7746, D(G(z)) 0.5163
+Epoch 035 | G_loss 0.6901, D_loss 1.1768 | D(x) 0.7760, D(G(z)) 0.5155
+Epoch 036 | G_loss 0.6891, D_loss 1.1769 | D(x) 0.7743, D(G(z)) 0.5159
+Epoch 037 | G_loss 0.6887, D_loss 1.1822 | D(x) 0.7717, D(G(z)) 0.5172
+Epoch 038 | G_loss 0.6888, D_loss 1.1858 | D(x) 0.7660, D(G(z)) 0.5176
+Epoch 039 | G_loss 0.6882, D_loss 1.1860 | D(x) 0.7666, D(G(z)) 0.5180
+Epoch 040 | G_loss 0.6889, D_loss 1.1847 | D(x) 0.7651, D(G(z)) 0.5173, FID 254.68
+Epoch 041 | G_loss 0.6895, D_loss 1.1859 | D(x) 0.7646, D(G(z)) 0.5178
+Epoch 042 | G_loss 0.6879, D_loss 1.1914 | D(x) 0.7595, D(G(z)) 0.5190
+Epoch 043 | G_loss 0.6888, D_loss 1.1932 | D(x) 0.7583, D(G(z)) 0.5198
+Epoch 044 | G_loss 0.6883, D_loss 1.1963 | D(x) 0.7537, D(G(z)) 0.5204
+Epoch 045 | G_loss 0.6879, D_loss 1.1969 | D(x) 0.7518, D(G(z)) 0.5202
+Epoch 046 | G_loss 0.6885, D_loss 1.1946 | D(x) 0.7529, D(G(z)) 0.5194
+Epoch 047 | G_loss 0.6887, D_loss 1.2028 | D(x) 0.7474, D(G(z)) 0.5214
+Epoch 048 | G_loss 0.6879, D_loss 1.2029 | D(x) 0.7469, D(G(z)) 0.5218
+Epoch 049 | G_loss 0.6891, D_loss 1.2045 | D(x) 0.7428, D(G(z)) 0.5215
+Epoch 050 | G_loss 0.6874, D_loss 1.2113 | D(x) 0.7390, D(G(z)) 0.5236, FID 237.87
+Epoch 051 | G_loss 0.6883, D_loss 1.2081 | D(x) 0.7395, D(G(z)) 0.5224
+Epoch 052 | G_loss 0.6879, D_loss 1.2179 | D(x) 0.7317, D(G(z)) 0.5244
+Epoch 053 | G_loss 0.6885, D_loss 1.2174 | D(x) 0.7283, D(G(z)) 0.5237
+Epoch 054 | G_loss 0.6894, D_loss 1.2219 | D(x) 0.7253, D(G(z)) 0.5244
+Epoch 055 | G_loss 0.6890, D_loss 1.2261 | D(x) 0.7221, D(G(z)) 0.5259
+Epoch 056 | G_loss 0.6884, D_loss 1.2217 | D(x) 0.7230, D(G(z)) 0.5241
+Epoch 057 | G_loss 0.6889, D_loss 1.2310 | D(x) 0.7160, D(G(z)) 0.5260
+Epoch 058 | G_loss 0.6891, D_loss 1.2275 | D(x) 0.7162, D(G(z)) 0.5249
+Epoch 059 | G_loss 0.6897, D_loss 1.2251 | D(x) 0.7184, D(G(z)) 0.5241
+Epoch 060 | G_loss 0.6895, D_loss 1.2407 | D(x) 0.7075, D(G(z)) 0.5278, FID 225.07
+Epoch 061 | G_loss 0.6900, D_loss 1.2307 | D(x) 0.7104, D(G(z)) 0.5242
+Epoch 062 | G_loss 0.6892, D_loss 1.2324 | D(x) 0.7120, D(G(z)) 0.5255
+Epoch 063 | G_loss 0.6902, D_loss 1.2437 | D(x) 0.7027, D(G(z)) 0.5276
+Epoch 064 | G_loss 0.6888, D_loss 1.2456 | D(x) 0.6993, D(G(z)) 0.5277
+Epoch 065 | G_loss 0.6900, D_loss 1.2429 | D(x) 0.6987, D(G(z)) 0.5265
+Epoch 066 | G_loss 0.6905, D_loss 1.2482 | D(x) 0.6948, D(G(z)) 0.5272
+Epoch 067 | G_loss 0.6914, D_loss 1.2472 | D(x) 0.6932, D(G(z)) 0.5265
+Epoch 068 | G_loss 0.6906, D_loss 1.2434 | D(x) 0.6969, D(G(z)) 0.5260
+Epoch 069 | G_loss 0.6908, D_loss 1.2524 | D(x) 0.6892, D(G(z)) 0.5275
+Epoch 070 | G_loss 0.6913, D_loss 1.2576 | D(x) 0.6848, D(G(z)) 0.5282, FID 220.59
+Epoch 071 | G_loss 0.6919, D_loss 1.2595 | D(x) 0.6813, D(G(z)) 0.5279
+Epoch 072 | G_loss 0.6924, D_loss 1.2640 | D(x) 0.6772, D(G(z)) 0.5286
+Epoch 073 | G_loss 0.6925, D_loss 1.2650 | D(x) 0.6738, D(G(z)) 0.5280
+Epoch 074 | G_loss 0.6924, D_loss 1.2456 | D(x) 0.6877, D(G(z)) 0.5246
+Epoch 075 | G_loss 0.6911, D_loss 1.2675 | D(x) 0.6753, D(G(z)) 0.5293
+Epoch 076 | G_loss 0.6935, D_loss 1.2740 | D(x) 0.6659, D(G(z)) 0.5288
+Epoch 077 | G_loss 0.6932, D_loss 1.2716 | D(x) 0.6661, D(G(z)) 0.5283
+Epoch 078 | G_loss 0.6937, D_loss 1.2747 | D(x) 0.6619, D(G(z)) 0.5279
+Epoch 079 | G_loss 0.6941, D_loss 1.2794 | D(x) 0.6585, D(G(z)) 0.5288
+Epoch 080 | G_loss 0.6947, D_loss 1.2714 | D(x) 0.6614, D(G(z)) 0.5266, FID 213.03
+Epoch 081 | G_loss 0.6940, D_loss 1.2792 | D(x) 0.6576, D(G(z)) 0.5284
+Epoch 082 | G_loss 0.6947, D_loss 1.2770 | D(x) 0.6553, D(G(z)) 0.5267
+Epoch 083 | G_loss 0.6951, D_loss 1.2836 | D(x) 0.6522, D(G(z)) 0.5283
+Epoch 084 | G_loss 0.6954, D_loss 1.2766 | D(x) 0.6565, D(G(z)) 0.5266
+Epoch 085 | G_loss 0.6956, D_loss 1.2862 | D(x) 0.6481, D(G(z)) 0.5278
+Epoch 086 | G_loss 0.6966, D_loss 1.2781 | D(x) 0.6508, D(G(z)) 0.5254
+Epoch 087 | G_loss 0.6960, D_loss 1.2738 | D(x) 0.6562, D(G(z)) 0.5253
+Epoch 088 | G_loss 0.6963, D_loss 1.2842 | D(x) 0.6498, D(G(z)) 0.5274
+Epoch 089 | G_loss 0.6960, D_loss 1.2947 | D(x) 0.6395, D(G(z)) 0.5278
+Epoch 090 | G_loss 0.6973, D_loss 1.2936 | D(x) 0.6375, D(G(z)) 0.5271, FID 204.62
+Epoch 091 | G_loss 0.6984, D_loss 1.2912 | D(x) 0.6375, D(G(z)) 0.5260
+Epoch 092 | G_loss 0.6967, D_loss 1.2968 | D(x) 0.6343, D(G(z)) 0.5272
+Epoch 093 | G_loss 0.6985, D_loss 1.2916 | D(x) 0.6339, D(G(z)) 0.5247
+Epoch 094 | G_loss 0.6993, D_loss 1.2948 | D(x) 0.6333, D(G(z)) 0.5257
+Epoch 095 | G_loss 0.6995, D_loss 1.3000 | D(x) 0.6281, D(G(z)) 0.5262
+Epoch 096 | G_loss 0.7013, D_loss 1.2901 | D(x) 0.6316, D(G(z)) 0.5230
+Epoch 097 | G_loss 0.6981, D_loss 1.2816 | D(x) 0.6438, D(G(z)) 0.5244
+Epoch 098 | G_loss 0.6990, D_loss 1.3055 | D(x) 0.6252, D(G(z)) 0.5270
+Epoch 099 | G_loss 0.7003, D_loss 1.2992 | D(x) 0.6236, D(G(z)) 0.5240
+Epoch 100 | G_loss 0.7002, D_loss 1.3035 | D(x) 0.6232, D(G(z)) 0.5254, FID 204.33
