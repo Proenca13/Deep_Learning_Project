@@ -1,0 +1,50 @@
+Epoch 001 | G_loss 67.0250, C_loss -23.0246 | W_dist 28.3671, GP 5.3424
+Epoch 002 | G_loss 65.9833, C_loss -22.1225 | W_dist 26.4260, GP 4.3035
+Epoch 003 | G_loss 62.0823, C_loss -23.3632 | W_dist 28.0754, GP 4.7123
+Epoch 004 | G_loss 56.2615, C_loss -23.3174 | W_dist 28.2680, GP 4.9506
+Epoch 005 | G_loss 49.5537, C_loss -20.1068 | W_dist 23.9986, GP 3.8918
+Epoch 006 | G_loss 47.6610, C_loss -18.4960 | W_dist 21.8307, GP 3.3347
+Epoch 007 | G_loss 45.6408, C_loss -18.1548 | W_dist 21.3539, GP 3.1991
+Epoch 008 | G_loss 46.0721, C_loss -17.9500 | W_dist 21.2713, GP 3.3212
+Epoch 009 | G_loss 45.6841, C_loss -17.6488 | W_dist 20.8624, GP 3.2136
+Epoch 010 | G_loss 45.4580, C_loss -17.3940 | W_dist 20.7247, GP 3.3308, FID 248.38
+Epoch 011 | G_loss 45.2743, C_loss -16.8922 | W_dist 19.9917, GP 3.0995
+Epoch 012 | G_loss 45.4040, C_loss -16.3987 | W_dist 19.4494, GP 3.0507
+Epoch 013 | G_loss 45.2773, C_loss -15.9662 | W_dist 18.8780, GP 2.9118
+Epoch 014 | G_loss 45.6950, C_loss -15.7715 | W_dist 18.6128, GP 2.8413
+Epoch 015 | G_loss 45.9045, C_loss -15.4150 | W_dist 18.3110, GP 2.8960
+Epoch 016 | G_loss 45.7255, C_loss -15.2085 | W_dist 17.9797, GP 2.7712
+Epoch 017 | G_loss 45.4433, C_loss -14.9315 | W_dist 17.6253, GP 2.6938
+Epoch 018 | G_loss 46.0037, C_loss -14.6252 | W_dist 17.2440, GP 2.6188
+Epoch 019 | G_loss 45.9256, C_loss -14.3875 | W_dist 17.0165, GP 2.6290
+Epoch 020 | G_loss 46.0229, C_loss -14.2595 | W_dist 16.7969, GP 2.5374, FID 225.48
+Epoch 021 | G_loss 45.7453, C_loss -14.0250 | W_dist 16.5797, GP 2.5547
+Epoch 022 | G_loss 45.6600, C_loss -13.9228 | W_dist 16.3904, GP 2.4676
+Epoch 023 | G_loss 45.5260, C_loss -13.7553 | W_dist 16.1954, GP 2.4401
+Epoch 024 | G_loss 46.1113, C_loss -13.5910 | W_dist 15.9924, GP 2.4014
+Epoch 025 | G_loss 45.8771, C_loss -13.4484 | W_dist 15.8040, GP 2.3556
+Epoch 026 | G_loss 46.2015, C_loss -13.2941 | W_dist 15.6534, GP 2.3593
+Epoch 027 | G_loss 46.5547, C_loss -13.1372 | W_dist 15.4576, GP 2.3203
+Epoch 028 | G_loss 47.1776, C_loss -13.1211 | W_dist 15.3755, GP 2.2544
+Epoch 029 | G_loss 47.2415, C_loss -12.9637 | W_dist 15.3100, GP 2.3462
+Epoch 030 | G_loss 47.4279, C_loss -12.9008 | W_dist 15.0975, GP 2.1966, FID 214.56
+Epoch 031 | G_loss 48.2698, C_loss -12.7173 | W_dist 15.0278, GP 2.3105
+Epoch 032 | G_loss 48.5978, C_loss -12.5933 | W_dist 14.7908, GP 2.1975
+Epoch 033 | G_loss 48.3511, C_loss -12.4724 | W_dist 14.6450, GP 2.1725
+Epoch 034 | G_loss 48.9494, C_loss -12.3875 | W_dist 14.5388, GP 2.1513
+Epoch 035 | G_loss 49.2069, C_loss -12.2242 | W_dist 14.3153, GP 2.0911
+Epoch 036 | G_loss 49.5778, C_loss -12.1569 | W_dist 14.2504, GP 2.0935
+Epoch 037 | G_loss 50.0752, C_loss -12.0190 | W_dist 14.0709, GP 2.0519
+Epoch 038 | G_loss 50.0852, C_loss -11.8974 | W_dist 14.0098, GP 2.1123
+Epoch 039 | G_loss 50.5398, C_loss -11.8555 | W_dist 13.9056, GP 2.0502
+Epoch 040 | G_loss 50.3361, C_loss -11.6932 | W_dist 13.7235, GP 2.0303, FID 195.73
+Epoch 041 | G_loss 50.5269, C_loss -11.6550 | W_dist 13.6296, GP 1.9746
+Epoch 042 | G_loss 51.2738, C_loss -11.5101 | W_dist 13.5080, GP 1.9979
+Epoch 043 | G_loss 51.1016, C_loss -11.4472 | W_dist 13.4139, GP 1.9667
+Epoch 044 | G_loss 51.2388, C_loss -11.3397 | W_dist 13.2991, GP 1.9593
+Epoch 045 | G_loss 52.0085, C_loss -11.2053 | W_dist 13.1635, GP 1.9582
+Epoch 046 | G_loss 51.9937, C_loss -11.1457 | W_dist 13.0013, GP 1.8555
+Epoch 047 | G_loss 52.2031, C_loss -11.1293 | W_dist 12.9921, GP 1.8628
+Epoch 048 | G_loss 52.2122, C_loss -10.9925 | W_dist 12.8605, GP 1.8681
+Epoch 049 | G_loss 52.0889, C_loss -10.9494 | W_dist 12.8214, GP 1.8720
+Epoch 050 | G_loss 52.6940, C_loss -10.9407 | W_dist 12.7449, GP 1.8042, FID 190.01

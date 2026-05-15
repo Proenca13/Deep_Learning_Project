@@ -1,0 +1,100 @@
+Epoch 001 | loss 0.050085
+Epoch 002 | loss 0.021025
+Epoch 003 | loss 0.018121
+Epoch 004 | loss 0.017350
+Epoch 005 | loss 0.016604
+Epoch 006 | loss 0.015459
+Epoch 007 | loss 0.015209
+Epoch 008 | loss 0.015020
+Epoch 009 | loss 0.014746
+Epoch 010 | loss 0.014673, FID 122.37
+Epoch 011 | loss 0.014683
+Epoch 012 | loss 0.014645
+Epoch 013 | loss 0.013971
+Epoch 014 | loss 0.013976
+Epoch 015 | loss 0.014066
+Epoch 016 | loss 0.013342
+Epoch 017 | loss 0.014213
+Epoch 018 | loss 0.013783
+Epoch 019 | loss 0.013681
+Epoch 020 | loss 0.013351, FID 114.01
+Epoch 021 | loss 0.013874
+Epoch 022 | loss 0.013524
+Epoch 023 | loss 0.013417
+Epoch 024 | loss 0.013617
+Epoch 025 | loss 0.013717
+Epoch 026 | loss 0.013236
+Epoch 027 | loss 0.013064
+Epoch 028 | loss 0.013496
+Epoch 029 | loss 0.013323
+Epoch 030 | loss 0.013226, FID 111.83
+Epoch 031 | loss 0.013418
+Epoch 032 | loss 0.012841
+Epoch 033 | loss 0.012996
+Epoch 034 | loss 0.013315
+Epoch 035 | loss 0.013186
+Epoch 036 | loss 0.013078
+Epoch 037 | loss 0.013467
+Epoch 038 | loss 0.012785
+Epoch 039 | loss 0.013311
+Epoch 040 | loss 0.012988, FID 71.45
+Epoch 041 | loss 0.012815
+Epoch 042 | loss 0.012976
+Epoch 043 | loss 0.012978
+Epoch 044 | loss 0.012836
+Epoch 045 | loss 0.013050
+Epoch 046 | loss 0.012842
+Epoch 047 | loss 0.013034
+Epoch 048 | loss 0.012993
+Epoch 049 | loss 0.012945
+Epoch 050 | loss 0.012826, FID 65.82
+Epoch 051 | loss 0.012851
+Epoch 052 | loss 0.013070
+Epoch 053 | loss 0.012873
+Epoch 054 | loss 0.012738
+Epoch 055 | loss 0.012874
+Epoch 056 | loss 0.012894
+Epoch 057 | loss 0.012770
+Epoch 058 | loss 0.012986
+Epoch 059 | loss 0.012853
+Epoch 060 | loss 0.012888, FID 66.51
+Epoch 061 | loss 0.012883
+Epoch 062 | loss 0.012963
+Epoch 063 | loss 0.012483
+Epoch 064 | loss 0.013181
+Epoch 065 | loss 0.012878
+Epoch 066 | loss 0.012813
+Epoch 067 | loss 0.012825
+Epoch 068 | loss 0.012773
+Epoch 069 | loss 0.013051
+Epoch 070 | loss 0.013199, FID 67.11
+Epoch 071 | loss 0.012697
+Epoch 072 | loss 0.012888
+Epoch 073 | loss 0.012748
+Epoch 074 | loss 0.012766
+Epoch 075 | loss 0.012729
+Epoch 076 | loss 0.012734
+Epoch 077 | loss 0.012851
+Epoch 078 | loss 0.013276
+Epoch 079 | loss 0.013348
+Epoch 080 | loss 0.012948, FID 64.72
+Epoch 081 | loss 0.012983
+Epoch 082 | loss 0.012698
+Epoch 083 | loss 0.013027
+Epoch 084 | loss 0.012917
+Epoch 085 | loss 0.012923
+Epoch 086 | loss 0.012993
+Epoch 087 | loss 0.013087
+Epoch 088 | loss 0.013214
+Epoch 089 | loss 0.013221
+Epoch 090 | loss 0.012836, FID 65.16
+Epoch 091 | loss 0.013175
+Epoch 092 | loss 0.012944
+Epoch 093 | loss 0.013164
+Epoch 094 | loss 0.012982
+Epoch 095 | loss 0.012769
+Epoch 096 | loss 0.013012
+Epoch 097 | loss 0.013078
+Epoch 098 | loss 0.012853
+Epoch 099 | loss 0.012993
+Epoch 100 | loss 0.013081, FID 64.41
