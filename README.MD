@@ -1,6 +1,6 @@
 # Deepfake Generation & Detection
 
-A deep learning project that explores both **generating** and **detecting** deepfake face images. The project is split into two Jupyter Notebooks — one for training generative models and another for training and evaluating binary classifiers.
+A deep learning project that explores both **generating** and **detecting** deepfake face images. The project is split into two Jupyter Notebooks, one for training generative models and another for training and evaluating binary classifiers.
 
 ## Project Structure
 
@@ -9,10 +9,10 @@ A deep learning project that explores both **generating** and **detecting** deep
 ├── deep_fake_generators.ipynb   # Notebook for deepfake image generation
 ├── deep_fake_classifiers.ipynb  # Notebook for deepfake detection / classification
 ├── data/                        # Dataset directory (see Data Setup below)
-│   ├── wiki/                    # Real face images (100 subfolders: 00–99)
-│   ├── inpainting/              # Fake images – inpainting method
-│   ├── insight/                 # Fake images – face-swap (InsightFace)
-│   └── text2img/                # Fake images – text-to-image generation
+│   ├── wiki/                    # Real face images (100 subfolders: 00-99)
+│   ├── inpainting/              # Fake images - inpainting method
+│   ├── insight/                 # Fake images - face-swap (InsightFace)
+│   └── text2img/                # Fake images - text-to-image generation
 ├── models/                      # Saved model weights (.pth)
 │   ├── classifiers/             # Classifier checkpoints (CNN/, NN/, ViT/)
 │   └── generators/              # Generator checkpoints (Diffusion/, GAN/)
@@ -31,7 +31,7 @@ A deep learning project that explores both **generating** and **detecting** deep
 
 ## Notebooks
 
-### 1. `deep_fake_generators.ipynb` — Deepfake Generation
+### 1. `deep_fake_generators.ipynb` - Deepfake Generation
 
 Trains generative models to synthesize realistic face images. Four iterations are explored:
 
@@ -42,7 +42,7 @@ Trains generative models to synthesize realistic face images. Four iterations ar
 | DCGAN v3 | WGAN-GP | Wasserstein loss + gradient penalty for stable training |
 | DDPM v4 | Denoising Diffusion Probabilistic Model | U-Net denoiser with MTCNN face cropping |
 
-### 2. `deep_fake_classifiers.ipynb` — Deepfake Detection
+### 2. `deep_fake_classifiers.ipynb` - Deepfake Detection
 
 Trains and evaluates binary classifiers (real vs. fake) across multiple architectures, dataset splits, and augmentation strategies.
 
@@ -60,14 +60,14 @@ Each architecture is trained on four dataset splits: **Inpainting**, **Insight**
 
 ## Data Setup
 
-Place your dataset inside the `data/` directory following the structure below. Each subfolder should contain face images organized into numbered subfolders (`00`–`99`):
+Place your dataset inside the `data/` directory following the structure below. Each subfolder should contain face images organized into numbered subfolders (`00`-`99`):
 
 ```
 data/
 ├── wiki/          # Real face images
-├── inpainting/    # Fake – inpainting-based
-├── insight/       # Fake – face-swap (InsightFace)
-└── text2img/      # Fake – text-to-image
+├── inpainting/    # Fake - inpainting-based
+├── insight/       # Fake - face-swap (InsightFace)
+└── text2img/      # Fake - text-to-image
 ```
 
 > **Note:** The dataset is not included in this repository. You will need to obtain and place the images manually.
@@ -96,8 +96,8 @@ data/
    ```
 
 4. **Open and run the desired notebook:**
-   - `deep_fake_generators.ipynb` — to train generative models.
-   - `deep_fake_classifiers.ipynb` — to train and evaluate classifiers.
+   - `deep_fake_generators.ipynb` - to train generative models.
+   - `deep_fake_classifiers.ipynb` - to train and evaluate classifiers.
 
 5. Run cells **sequentially from top to bottom**. Each notebook is self-contained.
 
