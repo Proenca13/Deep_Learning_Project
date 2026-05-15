@@ -13,9 +13,9 @@ A deep learning project that explores both **generating** and **detecting** deep
 │   ├── inpainting/              # Fake images - inpainting method
 │   ├── insight/                 # Fake images - face-swap (InsightFace)
 │   └── text2img/                # Fake images - text-to-image generation
-├── models/                      # Saved model weights (.pth)
-│   ├── classifiers/             # Classifier checkpoints (CNN/, NN/, ViT/)
-│   └── generators/              # Generator checkpoints (Diffusion/, GAN/)
+├── models/                      # Models code (.py)
+│   ├── classifiers/             # Classifier (CNN/, NN/, ViT/)
+│   └── generators/              # Generator (Diffusion/, GAN/)
 ├── experiment_logs/             # Training logs, metrics, and plots
 │   ├── classifiers/             # Logs split by augmentation/no_augmentation
 │   │   ├── no_augmentation/     # One subfolder per model variant
@@ -105,7 +105,6 @@ data/
 
 ## Where Results Are Saved
 
-- **Model weights** → `models/classifiers/` and `models/generators/` (`.pth` files)
-- **Training logs & plots** → `experiment_logs/classifiers/` and `experiment_logs/generators/`
+- **Training logs , plots and model weights** → `experiment_logs/classifiers/` and `experiment_logs/generators/`
   - Classifier logs are further split by `augmentation/` and `no_augmentation/`, with a subfolder per model variant (e.g., `ResNet34_full/`, `ViT_B_16_frozen/`).
   - Generator logs have a subfolder per iteration (`DCGAN_v1/`, `DCGAN_v2/`, `DCGAN_v3/`, `DDPM_v4/`).
